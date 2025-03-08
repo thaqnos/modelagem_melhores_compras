@@ -1,4 +1,4 @@
-# Projeto MER - Modelo Entidade Relacionamento (FIAP)
+# Projeto MER - Modelo Entidade Relacionamento
 
 ESTUDO DE CASO: SGV (SISTEMA DE GERENCIAMENTO DE VÍDEOS)
 
