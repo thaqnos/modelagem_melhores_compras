@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B290AA03-F887-2154-E9E3-20D4427ABD16" mainViewID="0C122BE0-6274-62FB-931B-D08BE8A99BE0">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 22:08:07 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CE5C954-7504-AE22-3DAB-A668F0761671" name="MC_PRODUTO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:25:16 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="AD3A89C9-E11F-2BD3-DAA7-47DA60B3F0D7">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:25:29 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categoria" id="D5714B26-F54D-6DEC-813E-E4576D507B6D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 14:52:03 UTC</createdTime>
+<generatorID>5DFB3811-1A68-7267-459F-8FD66E4C887B</generatorID>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<referedAttribute>8101F6E3-A75A-A521-6F32-50483CE26E28</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cd_barra_prod" id="E3F96B95-2379-1A15-5FE7-0C8EF9E6E31A">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:28:07 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="BB545BFF-C7DE-A9F8-2C17-5C705FB15A2D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:25:39 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="92C28F23-1437-A34A-5906-60DD31D56BD0">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:28:24 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_completa_prod" id="7D7545A7-55A6-1BF4-192A-EA7A94378F4C">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:25:46 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_produto" id="6343A5CD-ECCF-7835-9182-A62A7EE8B04D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:28:13 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E77A8AEA-4DC0-1F81-67F5-D7AA5AE5E36A" name="PRODUTO PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:28:00 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD3A89C9-E11F-2BD3-DAA7-47DA60B3F0D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

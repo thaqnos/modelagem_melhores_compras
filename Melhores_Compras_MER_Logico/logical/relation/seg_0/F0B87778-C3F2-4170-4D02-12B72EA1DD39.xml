@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="É" directorySegmentName="seg_0" id="F0B87778-C3F2-4170-4D02-12B72EA1DD39">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 14:33:46 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<sourcePk>FF7F133A-5E46-7C70-CA17-ED08C76FBB45</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E509684E-3C11-D6DF-315F-5CAFC4FFB658</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E854E749-8060-A044-7C83-07A0BB247F11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

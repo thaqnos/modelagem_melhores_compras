@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Melhores_Compras_MER_Logico" id="D63FC448-F044-F595-F080-2A53398568B2" version="3.5">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 22:08:07 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D63FC448-F044-F595-F080-2A53398568B2</designId>
+</OSDM_Design>

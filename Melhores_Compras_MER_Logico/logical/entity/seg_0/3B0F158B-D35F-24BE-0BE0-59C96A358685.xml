@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B0F158B-D35F-24BE-0BE0-59C96A358685" name="MC_SGV_SAC">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:39:00 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_sac" id="F8D17AC9-F63A-C7C1-72AF-77C697D623DD">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:40:45 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cliente" id="E752C9EE-F7D9-1CDC-29E4-5C80ED4AE161">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:10:29 UTC</createdTime>
+<generatorID>F6C9705D-6FCA-A324-BEC1-A6446B52FAEE</generatorID>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<referedAttribute>82DD4C28-8D24-1922-214D-02DCAADAF90D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="5D51442A-6683-C766-8453-F082C48578E1">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:11:28 UTC</createdTime>
+<generatorID>6A84053A-28FB-7062-5190-41570A3D9540</generatorID>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<referedAttribute>AD3A89C9-E11F-2BD3-DAA7-47DA60B3F0D7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_funcionario" id="CE42E52F-F1E2-34CC-FCC3-48A8797EE418">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:22:02 UTC</createdTime>
+<generatorID>21399A75-F3C7-1413-DF94-77EA3D633DEA</generatorID>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<referedAttribute>5C87F675-4531-42BB-7EDD-D3DBBB89174B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_detalhada_sac" id="D88FBB6B-C8DC-CE89-6DA4-57937D800CAD">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:08:02 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_abertura_sac" id="4FC94345-773B-B906-C981-51E2181E7546">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:08:18 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hr_abertura_sac" id="94BE395B-B398-8D4A-2B26-77CECECC1DFC">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:08:27 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_atendimento" id="10B9CB3F-A160-F200-E607-5BD00BD0C89E">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:08:36 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hr_atendimento_sac" id="44ED2729-8345-13C1-9BD2-853CEEE76803">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:08:44 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_tempo_total_sac" id="C3ED3275-5283-765E-E63D-E85B47C4C0C8">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:08:57 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_detalhada_retorno_sac" id="5982FE15-E1E1-8384-2478-7ECFF8F73930">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:09:06 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_sac" id="EA7DE098-A345-D227-C225-CB865AF97B1F">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:09:16 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_sac" id="00DF5586-DBBE-8ECB-B3BA-F663269D0404">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:09:21 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_indice_satisfacao" id="081521B6-D5D8-A1BB-693C-248AE1E46C2E">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 15:09:25 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B014CF0-40F4-21D7-BA87-02CD9AA5F396" name="T_CHAMADO PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-07 23:40:57 UTC</createdTime>
+<ownerDesignName>Melhores_Compras_MER_Logico</ownerDesignName>
+<engineerTo>
+<item key="428D807E-DCF8-38CF-373B-B8F606E63F07" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8D17AC9-F63A-C7C1-72AF-77C697D623DD</attributeRef>
+<attributeRef>E752C9EE-F7D9-1CDC-29E4-5C80ED4AE161</attributeRef>
+<attributeRef>5D51442A-6683-C766-8453-F082C48578E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
