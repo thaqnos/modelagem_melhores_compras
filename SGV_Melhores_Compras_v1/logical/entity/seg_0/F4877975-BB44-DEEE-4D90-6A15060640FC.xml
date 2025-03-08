@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4877975-BB44-DEEE-4D90-6A15060640FC" name="MC_VIDEO_PRODUTO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ST_VIDEO" id="EC19C6A4-57E7-4337-6C08-4358262BB91B">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[O status do vídeo pode receber apenas os seguintes conteúdos: A(tivo) ou I(nativo). ]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<importedID>9D7EB74F-B6D9-1200-040C-3FE6B6187EE7</importedID>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CLASSIFICACAO" id="9B3D8CFA-3A06-BB30-703F-E7C1AC246D85">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<importedID>23B83AA5-F507-F6EA-7E9D-9EC554C5DC13</importedID>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

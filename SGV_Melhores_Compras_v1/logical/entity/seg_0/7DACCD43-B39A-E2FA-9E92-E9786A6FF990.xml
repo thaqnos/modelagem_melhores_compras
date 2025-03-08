@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DACCD43-B39A-E2FA-9E92-E9786A6FF990" name="MC_VISUALIZACAO_PROD">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DT_VISUALIZACAO" id="991CE9AB-F250-B814-F266-EBBEB52A6A82">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<importedID>5E246A31-F531-BF97-6C44-B6EE48792F0B</importedID>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HR_VISUALIZACAO" id="6EBF8B04-72F1-A5F4-D06E-FCF043E68596">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<importedID>52F64172-E7C1-492C-2F41-A6AE0E2226E5</importedID>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIN_VISUALIZACAO" id="C65A7C42-382D-2B74-F652-3F1BE815BD2D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<importedID>26CE4CD7-D936-2440-50AA-F55167C0B84D</importedID>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEG_VISUALIZACAO" id="4C52EA7F-20D4-27F4-568E-3C8A5A5BB597">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<importedID>DF0EEE3F-2A4B-969B-3AC5-B2251213AAF3</importedID>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

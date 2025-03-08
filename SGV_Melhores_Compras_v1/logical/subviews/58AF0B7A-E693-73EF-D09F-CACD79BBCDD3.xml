@@ -106,13 +106,26 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1012" y="187" width="253" height="136"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="656B2727-833C-C3CC-A3D2-5E50A3B167B3" otype="Entity" vid="48D7EC70-08B6-3C88-D095-CF33B01BDA67">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="131" y="294" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6EAD1423-1BA8-F7CD-80D9-627A9600F20B" otype="Entity" vid="3D303782-4398-ACCF-0DAE-3936BE90D47A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1259" y="677" width="297" height="396"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="700BB819-F078-0A01-B9CA-C63FE423BB00" otype="Note" vid="9A93017C-E35F-158A-44ED-908FC81AAA45">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="231" y="270" width="159" height="72"/>
+<comment>to-do:: arrumar relacionamento</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="732D0B08-C537-849B-F93F-5A55B2186B75" otype="Entity" vid="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="875" y="385" width="313" height="233"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7DACCD43-B39A-E2FA-9E92-E9786A6FF990" otype="Entity" vid="FD5C859D-3D5A-74D4-3F53-6FDE2C79853A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="133" y="413" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="84DDD7DD-1DA1-220B-ED46-8E2252712432" otype="Note" vid="54F064C8-4EF7-38D3-A6CB-B072753BFD73">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -193,6 +206,10 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="D21A0D5B-DC85-DE84-F940-9207536747C0" otype="Entity" vid="DE896D2E-1351-8ACE-1719-B60734208469">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1661" y="17" width="330" height="152"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F4877975-BB44-DEEE-4D90-6A15060640FC" otype="Entity" vid="EB36A28F-B5E1-5520-C7A7-60E287998765">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="324" y="348" width="170" height="110"/>
 </OView>
 </objectViews>
 <connectors>
