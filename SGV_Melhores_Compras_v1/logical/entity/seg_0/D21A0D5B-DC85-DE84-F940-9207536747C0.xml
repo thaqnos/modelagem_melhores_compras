@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D21A0D5B-DC85-DE84-F940-9207536747C0" name="MC_CIDADE">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>07A77A55-CE36-8E78-D975-56AE32DD5E37</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_CIDADE" id="222C6B1C-9357-E263-1EC6-CAC658BFF0B3">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>F02A7FC6-D49A-05B2-FEC8-571348793994</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="A1D6EB82-6497-F843-3202-D93EAC9949AF">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.</commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="4F1A3263-4968-F780-F6FC-8986A63E6D0E">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna ira receber o nome da Cidade. Esse conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna ira receber o nome da Cidade. Esse conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>2A6C40E9-FF11-F3E8-44AA-E1F520D2B204</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_IBGE" id="4D4C27CB-FA06-48E4-09D1-8705172F9FE8">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o código do IBGE que fornece informações para geração da NFe.</comment>
+<commentInRDBMS>Esta coluna irá receber o código do IBGE que fornece informações para geração da NFe.</commentInRDBMS>
+<generatorID>91E7B7FC-A5E3-A6D7-9017-29C14C9317E1</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="41FC8311-AE8F-F0EE-A821-E5A9C3514107">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o número do DDD da cidade para ser utilizado no contato telefônico. Seu conteudo é opcional.</comment>
+<commentInRDBMS>Esta coluna irá receber o número do DDD da cidade para ser utilizado no contato telefônico. Seu conteudo é opcional.</commentInRDBMS>
+<generatorID>195048FB-9931-C08C-6F87-C708729BB111</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

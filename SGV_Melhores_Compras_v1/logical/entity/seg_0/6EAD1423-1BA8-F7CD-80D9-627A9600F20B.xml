@@ -1,0 +1,231 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EAD1423-1BA8-F7CD-80D9-627A9600F20B" name="MC_FUNCIONARIO">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>97801851-F919-CA27-8414-D96ADF5D9334</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_FUNCIONARIO" id="FF7C6449-9820-DE48-8797-FBE9BD2A5F43">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>3DA8680F-5172-3456-F7D5-262850D25EFC</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_DEPTO" id="F42A0AB2-8076-C3D1-E789-10B8206C9CE0">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o codigo do departamento onde o funcionario trabalha  e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o codigo do departamento onde o funcionario trabalha  e seu conteúdo é obrigatório.</commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_GERENTE" id="024C1058-2982-9596-B9B1-616B11ABA8D8">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o codigo do gestor do funcionario trabalha  e seu conteúdo é opcional.</comment>
+<commentInRDBMS>Esta coluna irá receber o codigo do gestor do funcionario trabalha  e seu conteúdo é opcional.</commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FUNCIONARIO" id="C83EA96F-766D-B48F-249C-87C329D1E223">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>3AFC4375-B6A6-E6C8-C419-0A8A0CB38690</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="92CDCB6C-0576-DAC2-D6CC-7CE24CB165DE">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber a data de nascimento  do funcionário e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber a data de nascimento  do funcionário e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>05A5EDBC-1765-3017-F205-BA9D53169D61</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FL_SEXO_BIOLOGICO" id="8DDE1029-9A71-C54A-F8A8-A99B396470B8">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o sexo biológico do funcionário e seu conteúdo é obrigatório.Os valores permitidos aqui seriam: (F)eminino; (M)asculino ou (Hermafrodita)</comment>
+<commentInRDBMS>Esta coluna irá receber o sexo biológico do funcionário e seu conteúdo é obrigatório.Os valores permitidos aqui seriam: (F)eminino; (M)asculino ou (Hermafrodita)</commentInRDBMS>
+<generatorID>F3FB1EB8-5ED6-F368-3E0D-EA11682B57A6</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_GENERO" id="18426A3D-2D7E-93F9-D633-88DFB50DF395">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o genero atribuido ao funcionário e seu conteúdo é opcional.</comment>
+<commentInRDBMS>Esta coluna irá receber o genero atribuido ao funcionário e seu conteúdo é opcional.</commentInRDBMS>
+<generatorID>E2596825-FB1F-4246-D0E2-9EC3E4491C39</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CARGO" id="C64DC700-398D-EC3C-8552-062E771DFDBC">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o cargo do funcionário e seu conteúdo é opcional.</comment>
+<commentInRDBMS>Esta coluna irá receber o cargo do funcionário e seu conteúdo é opcional.</commentInRDBMS>
+<generatorID>4F98228B-70A3-A25F-B28E-673275DC3034</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_SALARIO" id="6DCC14FA-6BF5-9D33-ED78-EC8FF6887B18">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o valor do salário do funcionário e seu conteúdo é opcional.</comment>
+<commentInRDBMS>Esta coluna irá receber o valor do salário do funcionário e seu conteúdo é opcional.</commentInRDBMS>
+<generatorID>861252AE-C440-9B28-1794-7FBBFD17A5C4</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EMAIL" id="EAF85722-90F8-8B86-C499-A62E25193E28">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o email do funcionário e seu conteúdo é opcional.</comment>
+<commentInRDBMS>Esta coluna irá receber o email do funcionário e seu conteúdo é opcional.</commentInRDBMS>
+<generatorID>7933B289-6AC7-742E-EDB9-E592FD15D6D7</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_FUNC" id="A3D7C4B4-A87E-4F76-2E07-FD454A1C1261">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar o stauts do funcionário da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).</comment>
+<commentInRDBMS>Essa coluna irá armazenar o stauts do funcionário da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).</commentInRDBMS>
+<generatorID>C0763F5C-ACD9-48AA-D3F1-BB625976188B</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRAMENTO" id="32103356-27F4-E454-74CC-A8D24EABBD01">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Data de cadastramento do Funcionario</comment>
+<commentInRDBMS>Data de cadastramento do Funcionario</commentInRDBMS>
+<generatorID>F9D9B213-FABB-256A-CC0F-DB8DE8B7F0F6</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_DESLIGAMENTO" id="4AD6DF41-69C4-CF71-87D2-D8877CE66480">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Data de desligamento  do Funcionario. Seu conteúdo é opcional.</comment>
+<commentInRDBMS>Data de desligamento  do Funcionario. Seu conteúdo é opcional.</commentInRDBMS>
+<generatorID>8C66A9F2-9A0F-8D2B-90EA-B0C4C798C5BD</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

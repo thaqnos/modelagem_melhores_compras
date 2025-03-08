@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AF134DE-F258-C319-33CA-90E07C8FD4E5" name="MC_LOGRADOURO">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>8F74FFBE-B788-8FC3-51DC-3EDFC10258D8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_LOGRADOURO" id="23FB6BA1-665E-3E39-8D8B-FE20DFBA10B0">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>51EAD6C8-13E9-822F-A496-BA3F45BB445A</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_BAIRRO" id="C6E35380-77D1-C701-337B-BCABBB1E11CA">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.</commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="F11DFE2D-3490-C2EF-100D-04125FCC74F3">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o nome do logradouro e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o nome do logradouro e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>EF3D0E50-426B-3A52-61EA-199102161A1B</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="27842C43-66E8-F23C-C38C-A6A9AC7CA1B8">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Esta coluna irá receber o numero do CEP do Logradouro e seu conteúdo é obrigatório.</comment>
+<commentInRDBMS>Esta coluna irá receber o numero do CEP do Logradouro e seu conteúdo é obrigatório.</commentInRDBMS>
+<generatorID>45D13374-FBBC-5414-3AC3-5F24FDFF6364</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

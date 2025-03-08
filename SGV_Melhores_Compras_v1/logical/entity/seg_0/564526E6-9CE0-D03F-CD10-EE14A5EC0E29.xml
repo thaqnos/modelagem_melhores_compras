@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="564526E6-9CE0-D03F-CD10-EE14A5EC0E29" name="MC_PRODUTO">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>0E48B727-90AE-BC11-870C-1DCFAEC8AE93</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PRODUTO" id="2D0729E2-3896-A8CB-8ECB-8D20F972A898">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.</comment>
+<commentInRDBMS>Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.</commentInRDBMS>
+<generatorID>7C5C6ED1-7E54-30C0-CE0F-68E16D66953D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CATEGORIA" id="70A4E32E-15F8-492C-52A4-0458FC00D9BA">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..</comment>
+<commentInRDBMS>Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..</commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CD_BARRAS_PROD" id="AE65232E-9C24-EF90-3D89-DC1D826664C9">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar o número do codigo de barras  do produto. Seu conteúdo deve ser opcional.</comment>
+<commentInRDBMS>Essa coluna irá armazenar o número do codigo de barras  do produto. Seu conteúdo deve ser opcional.</commentInRDBMS>
+<generatorID>8285CA14-212C-EF5C-A40D-5473BD263398</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PRODUTO" id="192AF864-D032-E0D7-F5BD-CE4453A88C9A">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar a descrição principal do produto. Seu conteúdo deve ser  obrigatorio.</comment>
+<commentInRDBMS>Essa coluna irá armazenar a descrição principal do produto. Seu conteúdo deve ser  obrigatorio.</commentInRDBMS>
+<generatorID>B06B20B1-7630-A5A3-CA95-7505DFCA7663</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_UNITARIO" id="6602F16E-B6BA-58C0-1664-D8D87AD7EFCF">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar o valor unitário do produto. Seu conteúdo deve ser &gt; 0 </comment>
+<commentInRDBMS>Essa coluna irá armazenar o valor unitário do produto. Seu conteúdo deve ser &gt; 0 </commentInRDBMS>
+<generatorID>5923E7FB-EE4E-60AD-BE6F-5B148EA328A7</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_EMBALAGEM" id="61786F27-FC21-89C7-1053-04500DEC5CE0">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar o tipo de embalagem do produto. Seu conteúdo pode ser opcional.</comment>
+<commentInRDBMS>Essa coluna irá armazenar o tipo de embalagem do produto. Seu conteúdo pode ser opcional.</commentInRDBMS>
+<generatorID>1982E641-929A-5A2D-C8C5-67C657FD1FE8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_PRODUTO" id="7942A8CA-B300-1E5F-2701-C3E994D45C7A">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar o stauts do produto da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).</comment>
+<commentInRDBMS>Essa coluna irá armazenar o stauts do produto da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).</commentInRDBMS>
+<generatorID>E1BCBBD8-F0FF-A360-BD7D-FF7AAABD4380</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL_PERC_LUCRO" id="0A3D1DC8-1302-B869-D492-9B226065A791">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar o percentual  do lucro médio para cada produto. Seu conteúdo deve ser opcional.</comment>
+<commentInRDBMS>Essa coluna irá armazenar o percentual  do lucro médio para cada produto. Seu conteúdo deve ser opcional.</commentInRDBMS>
+<generatorID>382B91E9-C2D0-7DB6-1EA2-C007051E77E1</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLETA_PROD" id="4847524F-1D66-41FC-A768-F74B0D7300F2">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment>Essa coluna irá armazenar a descrição completa do produto. Seu conteúdo deve ser  obrigatorio.</comment>
+<commentInRDBMS>Essa coluna irá armazenar a descrição completa do produto. Seu conteúdo deve ser  obrigatorio.</commentInRDBMS>
+<generatorID>61FA5414-8B59-B650-EE04-3A5CE61BE463</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

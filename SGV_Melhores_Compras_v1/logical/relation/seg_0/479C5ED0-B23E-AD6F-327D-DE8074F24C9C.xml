@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_LOGRADOURO_BAIRRO" directorySegmentName="seg_0" id="479C5ED0-B23E-AD6F-327D-DE8074F24C9C">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>ACC2F952-7406-A664-6457-A787DE92EC00</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BFA7168A-C7EC-EC41-4C02-2F1C6E8E71CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2AF134DE-F258-C319-33CA-90E07C8FD4E5</targetEntity>
+<transferable>true</transferable>
+</Relation>

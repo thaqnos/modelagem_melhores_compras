@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_BAIRRO_CIDADE" directorySegmentName="seg_0" id="EA297FC2-A444-5074-7DB7-76A057F3D805">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>2680C759-AE33-B8CA-3F4B-B5B21C8B658C</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D21A0D5B-DC85-DE84-F940-9207536747C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFA7168A-C7EC-EC41-4C02-2F1C6E8E71CD</targetEntity>
+<transferable>true</transferable>
+</Relation>

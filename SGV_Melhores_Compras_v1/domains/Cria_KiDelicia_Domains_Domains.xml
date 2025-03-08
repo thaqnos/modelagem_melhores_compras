@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Cria_KiDelicia_Domains_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="1EAB1D28-6C57-039E-BBEB-D3547416EE25">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_0_0" id="39A1A6B6-CF9C-06A2-505A-32A0EC2AFADE">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="569AAE6F-0764-79CE-6C6A-E6D978341871">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40" id="5D12F87A-F78F-B494-3783-AF18F362BB62">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>40</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_0_0" id="5EC2A2E9-750C-61AF-EC6F-D5E9BA49D292">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4" id="5FB4D704-CCC6-45AE-F6C6-5A564B009588">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>4</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_8_2_0" id="6DC071DC-5FC7-EA0F-3B6B-1F9356673291">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_2_0" id="6FF39375-8793-4880-C036-D1DD7267F3DC">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="8F141A19-E937-AC07-23BA-39F9A3DEA8F3">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="9C8A42A2-78CD-6078-2AE5-91C9F7F375B9">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_05_0_0" id="9FBED961-9CB3-2747-79E5-200E93C6E25B">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>05</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="AEFF22FB-7FE7-84D4-9807-52DC6072D2D7">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_08_0_0" id="BBA3DF94-4B72-4A7B-0F54-A2E12954D4BC">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>08</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_80" id="C15FE954-32AE-CD73-3763-69A156186BE9">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>80</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_0_0" id="D7F6A762-4A83-223F-CE63-97A86FCD4534">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_6" id="E4AE5DD8-4F65-5E3B-C929-6D00D67AAC13">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>6</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_6_0_0" id="EE1B4373-48EC-D637-37D5-CD76016873C8">
+<createdBy>salviop</createdBy>
+<createdTime>2013-01-03 21:36:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Cria_KiDelicia_Domains_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

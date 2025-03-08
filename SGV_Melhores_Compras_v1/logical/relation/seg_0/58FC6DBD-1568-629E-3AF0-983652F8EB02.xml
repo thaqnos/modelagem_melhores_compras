@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_CLIENTE_JURIDICA" directorySegmentName="seg_0" id="58FC6DBD-1568-629E-3AF0-983652F8EB02">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<generatorID>32004F6C-A7F9-B126-0177-8629B6EA5426</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<arc>BF453FE9-04C2-5420-A236-218B2E438028</arc>
+<dominantRole>732D0B08-C537-849B-F93F-5A55B2186B75</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>732D0B08-C537-849B-F93F-5A55B2186B75</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0F5720E6-647D-1DD0-16ED-3ABCC893DBDC</targetEntity>
+<transferable>true</transferable>
+</Relation>
