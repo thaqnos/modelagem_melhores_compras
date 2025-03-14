@@ -26,7 +26,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="221BA63E-3880-2E15-D3E2-66E087364C1B" otype="Entity" vid="79A5EBF4-5EEB-81F9-7022-C941765144EE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="880" y="678" width="301" height="428"/>
+<bounds x="891" y="673" width="301" height="428"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3342337</backgroundColor>
@@ -60,6 +60,11 @@
 <foType>Tipo de dados</foType>
 <colorRGB>-16744448</colorRGB>
 <foTypeID>5</foTypeID>
+</FontObject>
+<FontObject>
+<foType>Elemento da Chave Estrangeira</foType>
+<colorRGB>-16777216</colorRGB>
+<foTypeID>8</foTypeID>
 </FontObject>
 </fonts>
 </OView>
@@ -96,7 +101,7 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="564526E6-9CE0-D03F-CD10-EE14A5EC0E29" otype="Entity" vid="34F4E9E2-A02D-653F-2261-81E71CC62799">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="429" y="841" width="375" height="204"/>
+<bounds x="371" y="707" width="375" height="204"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5CCE66CC-C2B8-D3A6-3A7B-03F672E94531" otype="Entity" vid="CEDA1460-2589-3357-9579-7D6642D19A96">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -108,7 +113,7 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="656B2727-833C-C3CC-A3D2-5E50A3B167B3" otype="Entity" vid="48D7EC70-08B6-3C88-D095-CF33B01BDA67">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="131" y="294" width="170" height="110"/>
+<bounds x="80" y="497" width="170" height="64"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6EAD1423-1BA8-F7CD-80D9-627A9600F20B" otype="Entity" vid="3D303782-4398-ACCF-0DAE-3936BE90D47A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -116,8 +121,16 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="700BB819-F078-0A01-B9CA-C63FE423BB00" otype="Note" vid="9A93017C-E35F-158A-44ED-908FC81AAA45">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="231" y="270" width="159" height="72"/>
-<comment>to-do:: arrumar relacionamento</comment>
+<bounds x="288" y="127" width="285" height="170"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-52429</backgroundColor>
+<foregroundColor>-52429</foregroundColor>
+<comment>PARA FAZER: 
+- MC_SGV_SAC - REMOVER NM_CLIENTE E TROCAR PARA NR_CLIENTE
+- é pra complementar o relacionamento, apaga o relacionamento e faz de novo para ele trazer a chave estrangeira.
+- dica: tornar o endereço como obrigatório para o cliente e funcionário (opcional, pois o exercício não pede);
+- rever o modelo logico (vale sempre o que esta no exercício, não somente o que disponibilizaram no assets)
+- adicionar comentários nos atributos</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="732D0B08-C537-849B-F93F-5A55B2186B75" otype="Entity" vid="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -125,7 +138,7 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7DACCD43-B39A-E2FA-9E92-E9786A6FF990" otype="Entity" vid="FD5C859D-3D5A-74D4-3F53-6FDE2C79853A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="133" y="413" width="170" height="110"/>
+<bounds x="581" y="438" width="170" height="121"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="84DDD7DD-1DA1-220B-ED46-8E2252712432" otype="Note" vid="54F064C8-4EF7-38D3-A6CB-B072753BFD73">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -158,7 +171,7 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A9D4A024-0175-C4A3-9624-3254CBFA3B53" otype="Entity" vid="79CEC244-E7E9-A0CA-AE2A-CC836DE61929">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="88" y="704" width="246" height="229"/>
+<bounds x="57" y="704" width="246" height="229"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-52</backgroundColor>
@@ -209,7 +222,7 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F4877975-BB44-DEEE-4D90-6A15060640FC" otype="Entity" vid="EB36A28F-B5E1-5520-C7A7-60E287998765">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="324" y="348" width="170" height="110"/>
+<bounds x="318" y="484" width="170" height="68"/>
 </OView>
 </objectViews>
 <connectors>
@@ -261,6 +274,15 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <point x="1831" y="394"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="53AD2890-21C1-835C-2388-77ABB2794FB5" otype="Relation" vid_source="EB36A28F-B5E1-5520-C7A7-60E287998765" vid_target="FD5C859D-3D5A-74D4-3F53-6FDE2C79853A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="488" y="518"/>
+<point x="581" y="518"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="58FC6DBD-1568-629E-3AF0-983652F8EB02" otype="Relation" vid_source="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1" vid_target="D7771FD7-8F29-6184-9B33-16280BBFEE4E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -277,6 +299,15 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <points>
 <point x="1100" y="385"/>
 <point x="1100" y="323"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="647E86F4-39AA-D423-EF43-9CFB1697532F" otype="Relation" vid_source="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1" vid_target="FD5C859D-3D5A-74D4-3F53-6FDE2C79853A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="875" y="498"/>
+<point x="751" y="498"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="66C3A7A6-9DF7-52F1-AEBE-CF4CC6A2756A" otype="Relation" vid_source="CEDA1460-2589-3357-9579-7D6642D19A96" vid_target="DE896D2E-1351-8ACE-1719-B60734208469">
@@ -302,8 +333,17 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="334" y="933"/>
-<point x="429" y="943"/>
+<point x="303" y="809"/>
+<point x="371" y="809"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="859A24EE-C589-2817-D768-9288FC3EF492" otype="Relation" vid_source="EB36A28F-B5E1-5520-C7A7-60E287998765" vid_target="34F4E9E2-A02D-653F-2261-81E71CC62799">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="429" y="552"/>
+<point x="429" y="707"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="CEB0BD81-673E-91D2-BFA3-DCE6FE8090FF" otype="Relation" vid_source="3D303782-4398-ACCF-0DAE-3936BE90D47A" vid_target="A5E3B551-CC3E-9AF3-6A5E-5C11A5502D15">
@@ -313,6 +353,24 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <points>
 <point x="1556" y="785"/>
 <point x="1662" y="785"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D61D51D0-9B15-23E0-0093-FC1888113F97" otype="Relation" vid_source="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1" vid_target="79A5EBF4-5EEB-81F9-7022-C941765144EE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1039" y="618"/>
+<point x="1039" y="673"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E9486FF7-7B52-C608-4C9A-6683EE62F464" otype="Relation" vid_source="EB36A28F-B5E1-5520-C7A7-60E287998765" vid_target="48D7EC70-08B6-3C88-D095-CF33B01BDA67">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="318" y="524"/>
+<point x="250" y="524"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="EA297FC2-A444-5074-7DB7-76A057F3D805" otype="Relation" vid_source="DE896D2E-1351-8ACE-1719-B60734208469" vid_target="BC089668-13D4-F506-AADD-9CE977A4D09A">

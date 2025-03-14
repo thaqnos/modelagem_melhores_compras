@@ -15,6 +15,45 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_VISUALIZACAO" id="76596227-5EC4-88F2-FD82-C2230235C080">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:39:33 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="F61E2DA3-5316-D57A-07B4-5C0977DABDF7">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:25:36 UTC</createdTime>
+<generatorID>53AD2890-21C1-835C-2388-77ABB2794FB5</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>D2436C41-A0D8-6783-95E0-E36CF1968958</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="AF478CBA-283E-59BE-202F-25F3DC31236D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:18:36 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o nome do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
+<generatorID>647E86F4-39AA-D423-EF43-9CFB1697532F</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6A13E2D5-629F-CF2B-658F-19F0A1D6F92C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="DT_VISUALIZACAO" id="991CE9AB-F250-B814-F266-EBBEB52A6A82">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
@@ -73,4 +112,18 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA2D1B95-05B2-937D-F059-2BDC78ABB587" name="MC_VISUALIZACAO_PROD PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:39:39 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76596227-5EC4-88F2-FD82-C2230235C080</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

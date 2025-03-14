@@ -23,7 +23,18 @@
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="77DC5A37-A6EB-EF05-01FA-1E18DF1F5861">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:31:10 UTC</createdTime>
+<generatorID>E9486FF7-7B52-C608-4C9A-6683EE62F464</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>D2436C41-A0D8-6783-95E0-E36CF1968958</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -40,4 +51,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AE7F970-C840-9039-FFE5-E60C239911FD" name="MC_VIDEO_CLASSIFICACAO PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:26:40 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>287D93FF-D513-6952-8680-DDBBD56793B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

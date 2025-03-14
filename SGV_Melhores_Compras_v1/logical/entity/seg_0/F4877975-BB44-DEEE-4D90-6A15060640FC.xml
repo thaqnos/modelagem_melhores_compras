@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PRODUTO" id="D2436C41-A0D8-6783-95E0-E36CF1968958">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:24:52 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ST_VIDEO" id="EC19C6A4-57E7-4337-6C08-4358262BB91B">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
@@ -47,4 +57,18 @@
 <ownDataTypeParameters>160,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C458C30-AF63-63F7-835D-906965FC7580" name="MC_VIDEO_PRODUTO PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-14 00:25:35 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D2436C41-A0D8-6783-95E0-E36CF1968958</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
