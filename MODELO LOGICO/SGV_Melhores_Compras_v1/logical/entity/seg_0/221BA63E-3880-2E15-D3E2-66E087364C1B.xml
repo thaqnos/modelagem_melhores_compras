@@ -29,6 +29,23 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="FC63912E-30A4-E786-54A4-AFD9B92500B1">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:41:33 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
+<generatorID>E6C5FE03-0E83-D71F-4793-567127F5CA4B</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>2D0729E2-3896-A8CB-8ECB-8D20F972A898</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_CLIENTE" id="89839AC2-A550-ED2C-88D5-18866CB3139C">
@@ -48,35 +65,100 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_PRODUTO" id="BE6F3B43-AE89-E310-9561-6C478AF8A2CC">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></commentInRDBMS>
+<Attribute name="CD_FUNCIONARIO" id="F6421132-B949-CF34-882B-7C923BD65DAA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:37:00 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
+<generatorID>5AEEBB68-A60C-2F12-DB83-8195CA7107FB</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FF7C6449-9820-DE48-8797-FBE9BD2A5F43</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_FUNCIONARIO" id="191CBE5B-9D4E-E269-5BF7-AF071B24CF35">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<Attribute name="CD_CATEGORIA" id="340446D2-10C4-B7F4-0443-747F16270F97">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:41:33 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
+<generatorID>E6C5FE03-0E83-D71F-4793-567127F5CA4B</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>391F9B6C-D0E7-6001-8115-FA9BAC8305C5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ABERTURA_SAC" id="977AA993-B159-D123-4C54-6F97CC899816">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-12 01:05:50 UTC</createdTime>
+<comment><![CDATA[Essa coluna  irá  receber a data e horário do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber a data e horário do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></commentInRDBMS>
+<generatorID>F7D69A86-C801-03A8-F870-79FAD9A0D89E</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_SAC" id="46F2BC9F-614E-907D-6DF5-1266C621C975">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-12 01:05:50 UTC</createdTime>
+<comment><![CDATA[Essa coluna  irá  receber o TIPO  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são: (S)ugestão; (R)eclamação;  (D)úvida ou  (E)logio.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber o TIPO  do chamado SAC aberto pelo cliente.  Todo chamado deve ser classificado em 2 tipos: Tipo 1: Sugestão e Tipo 2: Reclamação.]]></commentInRDBMS>
+<generatorID>DAD7689D-BC9D-0E87-A288-8F3B277B6B29</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_SAC" id="13E89669-A81A-3398-B9FA-BA5F39E4305A">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-12 01:05:50 UTC</createdTime>
+<comment><![CDATA[Essa coluna  irá  receber o STATUS  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são: (E)m Atendimento; (C)ancelado; (F)echado ou (X)Fechado com Insatisfação do cliente.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber o STATUS  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são:  “A” (aberto), o primeiro status criado no início; “E” (em atendimento); “C” (cancelado)”; “F” (fechado com sucesso); “X” (fechado com insatisfação do cliente), conforme for evoluindo o atendimento. ]]></commentInRDBMS>
+<generatorID>3F5E44DB-3C93-61FE-A09F-2829DD3E6358</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HR_ABERTURA_SAC" id="E41EB31B-B5AA-AD63-CFEC-342D8701349A">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-12 01:05:50 UTC</createdTime>
+<comment><![CDATA[Essa coluna  irá  receber a hora do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber a hora do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></commentInRDBMS>
+<generatorID>834ABEFD-BF26-00D8-F3C2-D3570CBDB66E</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_DETALHADA_SAC" id="0C6629A7-1463-4DB1-8657-B221167B894C">
 <createdBy>Patricia</createdBy>
@@ -91,41 +173,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DT_ABERTURA_SAC" id="977AA993-B159-D123-4C54-6F97CC899816">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Essa coluna  irá  receber a data e horário do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna  irá  receber a data e horário do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></commentInRDBMS>
-<generatorID>F7D69A86-C801-03A8-F870-79FAD9A0D89E</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="HR_ABERTURA_SAC" id="E41EB31B-B5AA-AD63-CFEC-342D8701349A">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Essa coluna  irá  receber a hora do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna  irá  receber a hora do SAC aberto pelo cliente. Seu conteudo deve ser obrigatório.]]></commentInRDBMS>
-<generatorID>834ABEFD-BF26-00D8-F3C2-D3570CBDB66E</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DT_ATENDIMENTO" id="2C745FB8-111A-409C-EA7C-17BEF929DACE">
 <createdBy>Patricia</createdBy>
@@ -174,8 +224,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_DETALHADA_RETORNO_SAC" id="A664DAA9-C067-1C1C-D07B-1FFD03B923BC">
 <createdBy>Patricia</createdBy>
@@ -190,47 +240,15 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TP_SAC" id="46F2BC9F-614E-907D-6DF5-1266C621C975">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Essa coluna  irá  receber o TIPO  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são: (S)ugestão; (R)eclamação;  (D)úvida ou  (E)logio.]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna  irá  receber o TIPO  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são: (S)ugestão; (D)úvida ou  (E)logio.]]></commentInRDBMS>
-<generatorID>DAD7689D-BC9D-0E87-A288-8F3B277B6B29</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ST_SAC" id="13E89669-A81A-3398-B9FA-BA5F39E4305A">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Essa coluna  irá  receber o STATUS  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são: (E)m Atendimento; (C)ancelado; (F)echado ou (X)Fechado com Insatisfação do cliente.]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna  irá  receber o STATUS  do chamado SAC aberto pelo cliente.  Seu conteúdo deve ser  obrigatório e os possíveis valores são: (E)m Atendimento; (C)ancelado; (F)echado ou (X)Fechado com Insatisfação do cliente.]]></commentInRDBMS>
-<generatorID>3F5E44DB-3C93-61FE-A09F-2829DD3E6358</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_INDICE_SATISFACAO" id="BC553DBB-8D77-9CAA-A93E-AC1BA7C6B3C7">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-12 01:05:50 UTC</createdTime>
 <comment><![CDATA[Essa coluna  irá  receber o índice de satisfação, , computado como um valor simples de 1 a 10, onde 1 refere-se ao cliente menos satisfeito e 10 o cliente mais satisfeito. Esse índice de satisfação é opcional e informado pelo cliente ao final do atendimento.]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna  irá  receber o índice de satisfação, , computado como um valor simples de 1 a 10, onde 1 refere-se ao cliente menos satisfeito e 10 o cliente mais satisfeito. Esse índice de satisfação é opcional e informado pelo cliente ao final do atendimento.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber o índice de satisfação, , computado como um valor simples de 1 a 100, onde 1 refere-se ao cliente menos satisfeito e 100 o cliente mais satisfeito. Esse índice de satisfação é opcional e informado pelo cliente ao final do atendimento.]]></commentInRDBMS>
 <generatorID>7A7FFBE6-5B17-1D87-7EBC-5C1DD8E94F8C</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -240,8 +258,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TX_SAC" id="F293008A-0A10-3D2D-4C81-5C50E0308FC2">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:44:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Texto escrito pelo cliente internauta contendo no máximo 4.000 caracteres e seu conteúdo é obrigatório. Essa preciosa informação será analisada posteriormente pelo funcionário da Melhores Compras.]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -255,6 +287,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C8CE258C-A5EC-71D3-68C6-F33760B81660</attributeRef>
+<attributeRef>FC63912E-30A4-E786-54A4-AFD9B92500B1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -15,6 +15,7 @@
 <notation>2</notation>
 <showAllDetails>false</showAllDetails>
 <showElements>true</showElements>
+<showDatatype>true</showDatatype>
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="03CCA421-BAC6-5967-5091-BB423AC97255" otype="Entity" vid="D9E87265-507A-9694-4E7D-6ABB61B05E3F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -26,7 +27,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="221BA63E-3880-2E15-D3E2-66E087364C1B" otype="Entity" vid="79A5EBF4-5EEB-81F9-7022-C941765144EE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="891" y="673" width="301" height="428"/>
+<bounds x="891" y="673" width="301" height="251"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-3342337</backgroundColor>
@@ -86,9 +87,9 @@
 <foregroundColor>-16777216</foregroundColor>
 <comment>Integrantes do grupo
 
-BARBARA LAÍS BRAGA SILVA
+RM562723 - BARBARA LAÍS BRAGA SILVA
 HELLEN GARCIA CASTRO ALVES
-ISADORA LEVIS LOPES
+RM564650 - ISADORA LEVIS LOPES
 RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
@@ -104,9 +105,14 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </FontObject>
 </fonts>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="382445BB-271D-CAF8-73C7-18A5AD49DC89" otype="Note" vid="DD76CAA9-7CE8-47AA-D61F-69F7E071CE62">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="78" y="813" width="199" height="65"/>
+<comment>A descrição da categoria do produto deve ser única e a sugestão aqui é criar uma constraint do tipo UNIQUE para essa coluna.</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="564526E6-9CE0-D03F-CD10-EE14A5EC0E29" otype="Entity" vid="34F4E9E2-A02D-653F-2261-81E71CC62799">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="371" y="707" width="375" height="204"/>
+<bounds x="367" y="676" width="375" height="135"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="5CCE66CC-C2B8-D3A6-3A7B-03F672E94531" otype="Entity" vid="CEDA1460-2589-3357-9579-7D6642D19A96">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -118,11 +124,11 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="656B2727-833C-C3CC-A3D2-5E50A3B167B3" otype="Entity" vid="48D7EC70-08B6-3C88-D095-CF33B01BDA67">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="173" y="489" width="170" height="64"/>
+<bounds x="21" y="489" width="235" height="64"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6EAD1423-1BA8-F7CD-80D9-627A9600F20B" otype="Entity" vid="3D303782-4398-ACCF-0DAE-3936BE90D47A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1312" y="680" width="297" height="396"/>
+<bounds x="1312" y="680" width="298" height="237"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="732D0B08-C537-849B-F93F-5A55B2186B75" otype="Entity" vid="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -130,15 +136,7 @@ RM561221 - THAIS OLIVEIRA DE AQUINO</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7DACCD43-B39A-E2FA-9E92-E9786A6FF990" otype="Entity" vid="FD5C859D-3D5A-74D4-3F53-6FDE2C79853A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="663" y="468" width="170" height="121"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="7F4B5D55-7B68-6012-C885-57E4A28F8DEE" otype="Note" vid="12535B4A-9F77-9192-D928-9D89144E4E68">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="84" y="327" width="514" height="72"/>
-<comment>DUVIDA:
-&quot;&quot;RN09 - 	
-A data e hora da visualização são informações obrigatórias, bem como o código do produto visualizado&quot;
-deveria relacionar visualizacao com produto?</comment>
+<bounds x="621" y="467" width="219" height="140"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="84DDD7DD-1DA1-220B-ED46-8E2252712432" otype="Note" vid="54F064C8-4EF7-38D3-A6CB-B072753BFD73">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -167,7 +165,7 @@ deveria relacionar visualizacao com produto?</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A9D4A024-0175-C4A3-9624-3254CBFA3B53" otype="Entity" vid="79CEC244-E7E9-A0CA-AE2A-CC836DE61929">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="57" y="704" width="246" height="229"/>
+<bounds x="57" y="704" width="246" height="145"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-52</backgroundColor>
@@ -214,6 +212,14 @@ deveria relacionar visualizacao com produto?</comment>
 </FontObject>
 </fonts>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="AC9E8C01-C5C6-D21E-BD10-CD6C5F73CDC6" otype="Note" vid="F9B864FD-4792-7C0C-0140-8E47D4B8B9D1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1153" y="585" width="145" height="39"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-154</backgroundColor>
+<foregroundColor>-16777216</foregroundColor>
+<comment>criar entidade telefone para cliente e func</comment>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BFA7168A-C7EC-EC41-4C02-2F1C6E8E71CD" otype="Entity" vid="BC089668-13D4-F506-AADD-9CE977A4D09A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1666" y="217" width="324" height="137"/>
@@ -228,7 +234,12 @@ deveria relacionar visualizacao com produto?</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F4877975-BB44-DEEE-4D90-6A15060640FC" otype="Entity" vid="EB36A28F-B5E1-5520-C7A7-60E287998765">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="420" y="483" width="170" height="87"/>
+<bounds x="314" y="483" width="247" height="113"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F876FFB2-F5ED-D461-4AE7-5059BB5355B5" otype="Note" vid="61796B62-62A2-5AEA-AEFC-F6C2E12C2000">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="387" y="805" width="281" height="67"/>
+<comment>A descrição normal do produto deve ser única e a sugestão aqui é criar uma constraint do tipo UNIQUE para essa coluna.</comment>
 </OView>
 </objectViews>
 <connectors>
@@ -237,11 +248,11 @@ deveria relacionar visualizacao com produto?</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1609" y="912"/>
-<point x="1634" y="912"/>
-<point x="1634" y="1101"/>
-<point x="1486" y="1101"/>
-<point x="1486" y="1076"/>
+<point x="1610" y="892"/>
+<point x="1635" y="892"/>
+<point x="1639" y="974"/>
+<point x="1487" y="974"/>
+<point x="1487" y="917"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0D9BD69A-C544-78DC-C960-7E284D66047D" otype="Relation" vid_source="EB36A28F-B5E1-5520-C7A7-60E287998765" vid_target="FD5C859D-3D5A-74D4-3F53-6FDE2C79853A">
@@ -249,8 +260,8 @@ deveria relacionar visualizacao com produto?</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="590" y="526"/>
-<point x="663" y="526"/>
+<point x="561" y="539"/>
+<point x="621" y="539"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1CC67D86-78B8-BD5B-C3D9-3A81A082C768" otype="Relation" vid_source="CF87FDE1-52D1-B5E0-7CDF-A8BC09981934" vid_target="72EFA1A4-002A-209A-C439-68492C40D04B">
@@ -267,8 +278,8 @@ deveria relacionar visualizacao com produto?</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1438" y="680"/>
-<point x="1438" y="623"/>
+<point x="1453" y="680"/>
+<point x="1453" y="623"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2102440D-E6E3-646D-9FB2-A311B0AB7AB6" otype="Relation" vid_source="DE896D2E-1351-8ACE-1719-B60734208469" vid_target="BC089668-13D4-F506-AADD-9CE977A4D09A">
@@ -278,15 +289,6 @@ deveria relacionar visualizacao com produto?</comment>
 <points>
 <point x="1813" y="169"/>
 <point x="1813" y="217"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="22117123-2018-D098-98C4-AA23BA027DD1" otype="Relation" vid_source="34F4E9E2-A02D-653F-2261-81E71CC62799" vid_target="79CEC244-E7E9-A0CA-AE2A-CC836DE61929">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="371" y="794"/>
-<point x="303" y="794"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="441D9CC8-915A-EEEA-3D83-07BF29EB189F" otype="Relation" vid_source="BC089668-13D4-F506-AADD-9CE977A4D09A" vid_target="CF87FDE1-52D1-B5E0-7CDF-A8BC09981934">
@@ -307,6 +309,15 @@ deveria relacionar visualizacao com produto?</comment>
 <point x="929" y="321"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5AEEBB68-A60C-2F12-DB83-8195CA7107FB" otype="Relation" vid_source="3D303782-4398-ACCF-0DAE-3936BE90D47A" vid_target="79A5EBF4-5EEB-81F9-7022-C941765144EE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1312" y="798"/>
+<point x="1192" y="798"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5EC00AE6-8E51-04F4-FD48-84D35930182E" otype="Relation" vid_source="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1" vid_target="724767EC-8841-2EAF-F649-C3A61D25AB58">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -321,8 +332,8 @@ deveria relacionar visualizacao com produto?</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="420" y="536"/>
-<point x="343" y="536"/>
+<point x="314" y="521"/>
+<point x="256" y="521"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6F139228-2F85-ADCB-9324-114D5062C10B" otype="Relation" vid_source="D9E87265-507A-9694-4E7D-6ABB61B05E3F" vid_target="3D303782-4398-ACCF-0DAE-3936BE90D47A">
@@ -330,8 +341,17 @@ deveria relacionar visualizacao com produto?</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1669" y="726"/>
-<point x="1609" y="726"/>
+<point x="1669" y="741"/>
+<point x="1610" y="741"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6F1827AE-94EA-63C0-6248-D9BA55902D97" otype="Relation" vid_source="79CEC244-E7E9-A0CA-AE2A-CC836DE61929" vid_target="34F4E9E2-A02D-653F-2261-81E71CC62799">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="303" y="772"/>
+<point x="367" y="772"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9905ABC8-AACF-A433-7A53-967230942A93" otype="Relation" vid_source="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1" vid_target="79A5EBF4-5EEB-81F9-7022-C941765144EE">
@@ -348,8 +368,8 @@ deveria relacionar visualizacao com produto?</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="898" y="494"/>
-<point x="833" y="494"/>
+<point x="898" y="523"/>
+<point x="840" y="523"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C2244271-6503-386F-0E0C-645CC2610FE7" otype="Relation" vid_source="CD738B9D-C248-A712-D7DC-3DD3AC2C16C1" vid_target="72EFA1A4-002A-209A-C439-68492C40D04B">
@@ -370,13 +390,22 @@ deveria relacionar visualizacao com produto?</comment>
 <point x="1661" y="86"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E6C5FE03-0E83-D71F-4793-567127F5CA4B" otype="Relation" vid_source="34F4E9E2-A02D-653F-2261-81E71CC62799" vid_target="79A5EBF4-5EEB-81F9-7022-C941765144EE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="742" y="743"/>
+<point x="891" y="743"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FDEFD5B5-0AD1-5456-45B1-6D14EA853DD0" otype="Relation" vid_source="34F4E9E2-A02D-653F-2261-81E71CC62799" vid_target="EB36A28F-B5E1-5520-C7A7-60E287998765">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="490" y="707"/>
-<point x="490" y="570"/>
+<point x="388" y="676"/>
+<point x="388" y="596"/>
 </points>
 </Connector>
 </connectors>

@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_SUB_CATEGORIA_PROD" directorySegmentName="seg_0" id="22117123-2018-D098-98C4-AA23BA027DD1">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_FUNCIONARIO_SAC" directorySegmentName="seg_0" id="5AEEBB68-A60C-2F12-DB83-8195CA7107FB">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-17 00:08:29 UTC</createdTime>
+<createdTime>2025-03-17 22:37:00 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<sourcePk>79FF79E7-F70A-79B8-B4AB-3A6D640B5D5A</sourcePk>
+<sourcePk>D9AAD32E-7A86-E3B3-4181-3A9CA867A9B9</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>564526E6-9CE0-D03F-CD10-EE14A5EC0E29</sourceEntity>
+<sourceEntity>6EAD1423-1BA8-F7CD-80D9-627A9600F20B</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>A9D4A024-0175-C4A3-9624-3254CBFA3B53</targetEntity>
+<targetEntity>221BA63E-3880-2E15-D3E2-66E087364C1B</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -26,6 +26,23 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="89F878C0-CF0C-FA58-A109-3FAD966E732E">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 23:42:41 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
+<generatorID>0D9BD69A-C544-78DC-C960-7E284D66047D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>EB66B7D6-047B-593F-FE51-5CA9FE89E95B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_VIDEO" id="36503908-F236-80D2-A980-C6EEB8F47C90">
@@ -41,6 +58,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_CLIENTE" id="4D88E46C-69FB-8FEE-7808-64C8E5B60BE4">
@@ -58,7 +76,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DT_VISUALIZACAO" id="4270F257-ADBC-A3CC-991A-74851DD5B923">
 <createdBy>thaqn</createdBy>
@@ -114,7 +132,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -128,6 +147,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>76596227-5EC4-88F2-FD82-C2230235C080</attributeRef>
+<attributeRef>4D88E46C-69FB-8FEE-7808-64C8E5B60BE4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

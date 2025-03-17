@@ -26,7 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_PRODUTO" id="EB66B7D6-047B-593F-FE51-5CA9FE89E95B">
 <createdBy>thaqn</createdBy>
@@ -58,8 +59,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_VIDEO" id="9B3D8CFA-3A06-BB30-703F-E7C1AC246D85">
 <createdBy>thaqn</createdBy>
@@ -73,9 +74,39 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>160</dataTypeSize>
-<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO_VIDEO" id="D57F25BE-8912-54BB-C683-DCF0843E8C92">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:13:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data que o vídeo foi cadastrado na plataforma.]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_CATEGORIA" id="941B2834-2353-1316-1235-7B040C91F4AF">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:29:45 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
+<generatorID>FDEFD5B5-0AD1-5456-45B1-6D14EA853DD0</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>391F9B6C-D0E7-6001-8115-FA9BAC8305C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -89,6 +120,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6284593F-4F30-935E-F584-39DBC4E33FB7</attributeRef>
+<attributeRef>EB66B7D6-047B-593F-FE51-5CA9FE89E95B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
