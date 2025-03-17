@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4877975-BB44-DEEE-4D90-6A15060640FC" name="MC_VIDEO_PRODUTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4877975-BB44-DEEE-4D90-6A15060640FC" name="MC_VIDEO">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
@@ -15,14 +15,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_PRODUTO" id="D2436C41-A0D8-6783-95E0-E36CF1968958">
+<Attribute name="CD_VIDEO" id="6284593F-4F30-935E-F584-39DBC4E33FB7">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-14 00:24:52 UTC</createdTime>
+<createdTime>2025-03-17 00:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do vídeo e seu conteúdo é obrigatório]]></commentInRDBMS>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PRODUTO" id="EB66B7D6-047B-593F-FE51-5CA9FE89E95B">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 00:07:53 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do produto e seu conteúdo é obrigatório]]></commentInRDBMS>
+<generatorID>FDEFD5B5-0AD1-5456-45B1-6D14EA853DD0</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>2D0729E2-3896-A8CB-8ECB-8D20F972A898</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ST_VIDEO" id="EC19C6A4-57E7-4337-6C08-4358262BB91B">
@@ -41,9 +61,10 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_CLASSIFICACAO" id="9B3D8CFA-3A06-BB30-703F-E7C1AC246D85">
+<Attribute name="DS_VIDEO" id="9B3D8CFA-3A06-BB30-703F-E7C1AC246D85">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber a descrição detalhada do vídeo. ]]></commentInRDBMS>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <importedID>23B83AA5-F507-F6EA-7E9D-9EC554C5DC13</importedID>
 <engineerTo>
@@ -67,7 +88,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D2436C41-A0D8-6783-95E0-E36CF1968958</attributeRef>
+<attributeRef>6284593F-4F30-935E-F584-39DBC4E33FB7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

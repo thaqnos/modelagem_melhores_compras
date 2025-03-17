@@ -19,8 +19,8 @@
 <Attribute name="CD_DEPTO" id="7DDFB79F-4F6B-CE1D-7854-241305D04174">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna irá receber o codigo do departamento  e seu conteúdo é obrigatório.</comment>
-<commentInRDBMS>Esta coluna irá receber o codigo do departamento  e seu conteúdo é obrigatório.</commentInRDBMS>
+<comment><![CDATA[Esta coluna irá receber o codigo do departamento  e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do departamento  e seu conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>E8039C47-B236-3C3A-A0DF-33D17B2C3CF9</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -35,8 +35,8 @@
 <Attribute name="NM_DEPTO" id="810FEE3E-0F96-EA07-D693-280FF778FF08">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna irá receber o nome do  departamento  e seu conteúdo é obrigatório.</comment>
-<commentInRDBMS>Esta coluna irá receber o nome do  departamento  e seu conteúdo é obrigatório.</commentInRDBMS>
+<comment><![CDATA[Esta coluna irá receber o nome do  departamento  e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do  departamento  e seu conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>27F29CD9-2B20-9300-6B7A-064098A56B24</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -51,8 +51,8 @@
 <Attribute name="ST_DEPTO" id="000DC660-212A-494E-0869-E449FBFE0D84">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna irá receber o status do  departamento  e seu conteúdo é obrigatório. Os valores possíveis são: (A)tivo e (I)nativo.</comment>
-<commentInRDBMS>Esta coluna irá receber o status do  departamento  e seu conteúdo é obrigatório. Os valores possíveis são: (A)tivo e (I)nativo.</commentInRDBMS>
+<comment><![CDATA[Esta coluna irá receber o status do  departamento  e seu conteúdo é obrigatório. Os valores possíveis são: (A)tivo e (I)nativo.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o status do  departamento  e seu conteúdo é obrigatório. Os valores possíveis são: (A)tivo e (I)nativo.]]></commentInRDBMS>
 <generatorID>9E35BA4E-7D2E-3CD8-54B9-E6A678A3EDE8</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -65,4 +65,18 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75B96292-C5DA-EE86-504A-F9A5F901C1ED" name="MC_DEPTO PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:53:43 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DDFB79F-4F6B-CE1D-7854-241305D04174</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C28640F7-29FE-FEE1-635D-DF474E5CE731" name="MC_END_CLI">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C28640F7-29FE-FEE1-635D-DF474E5CE731" name="MC_ENDERECO">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
 <generatorID>19A1836D-80ED-6D53-E206-AB4ADB154658</generatorID>
@@ -16,11 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NR_CLIENTE" id="04946D4F-918A-9BCA-5FFC-498C206A96C5">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment><![CDATA[Esta coluna irá receber o número do cliente e seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esta coluna irá receber o número do cliente e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<Attribute name="CD_END_CLI" id="5E9DF2C7-73CB-8D1E-86D6-5484DA5D243D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:57:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do endereço do cliente  e seu conteúdo é obrigatório.]]></commentInRDBMS>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
@@ -30,18 +29,21 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_LOGRADOURO_CLI" id="DC141664-CBAE-0CDF-BF7D-B1043ACD4739">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment><![CDATA[Esta coluna irá receber o código do logradouro  do cliente e seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esta coluna irá receber o código do logradouro  do cliente e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<Attribute name="CD_LOGRADOURO" id="2FDE63B8-08D2-5F28-688E-9B4404B28948">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:56:45 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>1CC67D86-78B8-BD5B-C3D9-3A81A082C768</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
+<referedAttribute>23FB6BA1-665E-3E39-8D8B-FE20DFBA10B0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_END" id="66FB558F-5A6D-02B8-5E1E-1A0E02A58227">
@@ -87,7 +89,6 @@
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -119,12 +120,43 @@
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CLIENTE" id="2E7A90FB-D067-F7A3-0FD2-2AD8BFF11102">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 01:05:07 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
+<generatorID>C2244271-6503-386F-0E0C-645CC2610FE7</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>F401F00A-70F8-1181-69A0-320FD1410045</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_FUNCIONARIO" id="3B12C72E-5EC6-0166-949B-91418366E592">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 01:05:19 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
+<generatorID>2001F292-E4E5-BF83-7EC8-8B616E9F2D5A</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>FF7C6449-9820-DE48-8797-FBE9BD2A5F43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -136,6 +168,9 @@
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>5E9DF2C7-73CB-8D1E-86D6-5484DA5D243D</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

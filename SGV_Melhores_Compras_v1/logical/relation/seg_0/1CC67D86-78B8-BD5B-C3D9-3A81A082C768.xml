@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_CLIENTE_END" directorySegmentName="seg_0" id="18DD719A-599E-C717-9B45-3C72459A2DF7">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<generatorID>944D3744-4BD5-17E8-F411-8B4FB1E58012</generatorID>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_LOGRADOURO_END_CLI" directorySegmentName="seg_0" id="1CC67D86-78B8-BD5B-C3D9-3A81A082C768">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:56:45 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<useSurrogateKey>true</useSurrogateKey>
-<identifying>true</identifying>
+<sourcePk>3F06E60B-18FC-0A13-5198-D79873350276</sourcePk>
+<identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>732D0B08-C537-849B-F93F-5A55B2186B75</sourceEntity>
+<sourceEntity>2AF134DE-F258-C319-33CA-90E07C8FD4E5</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>C28640F7-29FE-FEE1-635D-DF474E5CE731</targetEntity>
 <transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
 </Relation>

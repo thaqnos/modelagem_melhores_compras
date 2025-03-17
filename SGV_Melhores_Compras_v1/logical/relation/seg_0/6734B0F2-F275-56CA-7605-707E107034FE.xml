@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_VIDEO_VISUALIZACAO" directorySegmentName="seg_0" id="53AD2890-21C1-835C-2388-77ABB2794FB5">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_CLASSIFICACAO_VIDEO" directorySegmentName="seg_0" id="6734B0F2-F275-56CA-7605-707E107034FE">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-14 00:21:38 UTC</createdTime>
+<createdTime>2025-03-17 00:12:18 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F4877975-BB44-DEEE-4D90-6A15060640FC</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7DACCD43-B39A-E2FA-9E92-E9786A6FF990</targetEntity>
+<targetEntity>656B2727-833C-C3CC-A3D2-5E50A3B167B3</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

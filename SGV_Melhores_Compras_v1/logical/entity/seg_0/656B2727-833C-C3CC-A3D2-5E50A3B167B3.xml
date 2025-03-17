@@ -18,6 +18,7 @@
 <Attribute name="CD_CLASSIFICACAO" id="287D93FF-D513-6952-8680-DDBBD56793B1">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código de classificação do vídeo e este é um atributo obrigatório.]]></commentInRDBMS>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <importedID>4D83CDF0-EB1C-A377-F389-68AAB3A86453</importedID>
 <engineerTo>
@@ -26,29 +27,35 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_PRODUTO" id="77DC5A37-A6EB-EF05-01FA-1E18DF1F5861">
+<Attribute name="CD_VIDEO" id="A94DA404-4D2C-7EC0-314F-CDA168DE39EA">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-14 00:31:10 UTC</createdTime>
-<generatorID>E9486FF7-7B52-C608-4C9A-6683EE62F464</generatorID>
+<createdTime>2025-03-17 00:12:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do vídeo e seu conteúdo é obrigatório..]]></commentInRDBMS>
+<generatorID>6734B0F2-F275-56CA-7605-707E107034FE</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<referedAttribute>D2436C41-A0D8-6783-95E0-E36CF1968958</referedAttribute>
-<use>0</use>
+<referedAttribute>6284593F-4F30-935E-F584-39DBC4E33FB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_CLASSIFICACAO" id="216CB637-426A-DF94-6029-C627A70568D8">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber a descrição detalhada da classificação do vídeo. Exemplos dessas classificações: Vídeo de instalação do produto; Uso no cotidiano; Comercial com personalidade; entre outros.]]></commentInRDBMS>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <importedID>F1CB6C38-D47A-6905-57EC-1994D114727B</importedID>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

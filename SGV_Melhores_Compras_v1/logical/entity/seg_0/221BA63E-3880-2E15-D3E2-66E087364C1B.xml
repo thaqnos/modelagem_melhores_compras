@@ -31,18 +31,21 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_CLIENTE" id="017A5211-6607-3A9D-2680-4F5B83758CD4">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-12 01:05:50 UTC</createdTime>
-<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da tabela NC_CLIENTE. ]]></comment>
-<commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da tabela NC_CLIENTE. ]]></commentInRDBMS>
+<Attribute name="NR_CLIENTE" id="89839AC2-A550-ED2C-88D5-18866CB3139C">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:59:45 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></commentInRDBMS>
+<generatorID>9905ABC8-AACF-A433-7A53-967230942A93</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
+<referedAttribute>F401F00A-70F8-1181-69A0-320FD1410045</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_PRODUTO" id="BE6F3B43-AE89-E310-9561-6C478AF8A2CC">
@@ -240,21 +243,19 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_CLIENTE" id="4D29A46E-5BF3-4FA9-1B1A-99ABB2DE468C">
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63C78DB7-9CAD-30CA-2B4D-61479216E318" name="MC_SGV_SAC PK">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-14 00:31:57 UTC</createdTime>
-<comment><![CDATA[Essa coluna irá armazenar o nome do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
-<generatorID>D61D51D0-9B15-23E0-0093-FC1888113F97</generatorID>
+<createdTime>2025-03-17 00:00:15 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<referedAttribute>6A13E2D5-629F-CF2B-658F-19F0A1D6F92C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>160</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8CE258C-A5EC-71D3-68C6-F33760B81660</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

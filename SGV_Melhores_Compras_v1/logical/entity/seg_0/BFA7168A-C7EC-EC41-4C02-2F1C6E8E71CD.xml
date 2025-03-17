@@ -19,8 +19,8 @@
 <Attribute name="CD_BAIRRO" id="45F394DD-754B-A9A9-70D5-223E4E462BFF">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.</comment>
-<commentInRDBMS>Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.</commentInRDBMS>
+<comment><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>05E6E2FF-C874-436C-D326-E6FA9643E8A4</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -32,25 +32,28 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_CIDADE" id="06A368B5-77F6-370F-3ECD-D7DCC31EECBA">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.</comment>
-<commentInRDBMS>Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.</commentInRDBMS>
+<Attribute name="CD_CIDADE" id="D351FEED-44A9-3101-DA85-2887A0AF590C">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:42:34 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>2102440D-E6E3-646D-9FB2-A311B0AB7AB6</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
+<referedAttribute>222C6B1C-9357-E263-1EC6-CAC658BFF0B3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_BAIRRO" id="48688E7F-FCDF-8CD0-5C37-01C5684190ED">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna ira receber o nome do Bairro. Esse conteúdo é obrigatório.</comment>
-<commentInRDBMS>Esta coluna ira receber o nome do Bairro. Esse conteúdo é obrigatório.</commentInRDBMS>
+<comment><![CDATA[Esta coluna ira receber o nome do Bairro. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber o nome do Bairro. Esse conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>9E835B6A-68A7-F7C0-33C7-DA63E93FB8D0</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -66,8 +69,8 @@
 <Attribute name="NM_ZONA_BAIRRO" id="867E7130-1AAF-8065-5ADC-F5A660839873">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment>Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.</comment>
-<commentInRDBMS>Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.</commentInRDBMS>
+<comment><![CDATA[Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.]]></commentInRDBMS>
 <generatorID>F7C18051-FBCC-DB91-D5C1-BD50D0E2D49D</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
@@ -81,4 +84,18 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C78B1283-DD59-D3D6-2CC6-CB8FD6E8EE55" name="MC_BAIRRO PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:43:59 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45F394DD-754B-A9A9-70D5-223E4E462BFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
