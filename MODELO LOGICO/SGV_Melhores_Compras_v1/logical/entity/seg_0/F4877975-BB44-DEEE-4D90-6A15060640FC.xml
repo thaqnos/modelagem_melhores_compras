@@ -46,6 +46,22 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CD_CATEGORIA" id="941B2834-2353-1316-1235-7B040C91F4AF">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-17 22:29:45 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
+<generatorID>FDEFD5B5-0AD1-5456-45B1-6D14EA853DD0</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>391F9B6C-D0E7-6001-8115-FA9BAC8305C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ST_VIDEO" id="EC19C6A4-57E7-4337-6C08-4358262BB91B">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-08 22:22:26 UTC</createdTime>
@@ -92,22 +108,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_CATEGORIA" id="941B2834-2353-1316-1235-7B040C91F4AF">
-<createdBy>thaqn</createdBy>
-<createdTime>2025-03-17 22:29:45 UTC</createdTime>
-<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
-<generatorID>FDEFD5B5-0AD1-5456-45B1-6D14EA853DD0</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<referedAttribute>391F9B6C-D0E7-6001-8115-FA9BAC8305C5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7C458C30-AF63-63F7-835D-906965FC7580" name="MC_VIDEO_PRODUTO PK">
@@ -120,7 +120,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6284593F-4F30-935E-F584-39DBC4E33FB7</attributeRef>
-<attributeRef>EB66B7D6-047B-593F-FE51-5CA9FE89E95B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

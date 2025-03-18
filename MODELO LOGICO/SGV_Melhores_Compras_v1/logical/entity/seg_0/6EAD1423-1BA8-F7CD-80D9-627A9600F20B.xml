@@ -77,9 +77,9 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_TEL" id="30F049EF-61B5-0FB9-03F5-91602898A5F2">
+<Attribute name="NR_TEL" id="32C78C42-8ACA-38BF-3A88-4AB6EF014780">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-17 22:47:20 UTC</createdTime>
+<createdTime>2025-03-18 00:50:52 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
@@ -136,7 +136,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_GERENTE" id="024C1058-2982-9596-B9B1-616B11ABA8D8">
 <createdBy>Patricia</createdBy>
@@ -266,6 +266,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FF7C6449-9820-DE48-8797-FBE9BD2A5F43</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F5FB3EAC-4636-23C3-CFDF-1354CAC3D3C4" name="UK_MC_FUNCIONARIO_NUMERO_CPF">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-18 01:02:30 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<newElementsIDs>94370E12-BAE7-7B73-AC4B-0C45EB2D165E</newElementsIDs>
+<usedAttributes>
+<attributeRef>94370E12-BAE7-7B73-AC4B-0C45EB2D165E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
