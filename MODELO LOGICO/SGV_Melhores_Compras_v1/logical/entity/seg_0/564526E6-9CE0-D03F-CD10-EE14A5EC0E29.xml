@@ -124,11 +124,17 @@
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
+<constraintName>CK_MC_ST_PRODUTO</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="ATIVO"/>
+<valueDef value="I" description="INATIVO"/>
+</listOfValues>
+<defaultValue>A</defaultValue>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
