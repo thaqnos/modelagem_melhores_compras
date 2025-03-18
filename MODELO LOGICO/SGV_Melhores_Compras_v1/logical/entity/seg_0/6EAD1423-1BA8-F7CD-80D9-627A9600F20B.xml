@@ -136,7 +136,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_GERENTE" id="024C1058-2982-9596-B9B1-616B11ABA8D8">
 <createdBy>Patricia</createdBy>

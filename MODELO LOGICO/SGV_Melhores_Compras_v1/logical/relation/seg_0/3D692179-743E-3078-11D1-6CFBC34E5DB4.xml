@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_BAIRRO_LOGRADOURO" directorySegmentName="seg_0" id="441D9CC8-915A-EEEA-3D83-07BF29EB189F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_BAIRRO_LOGRADOURO" directorySegmentName="seg_0" id="3D692179-743E-3078-11D1-6CFBC34E5DB4">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-16 23:43:07 UTC</createdTime>
+<createdTime>2025-03-18 22:55:50 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>

@@ -32,12 +32,11 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_BAIRRO" id="2C1F25C2-A1AC-2702-CBFE-3F4570FBF92E">
+<Attribute name="CD_BAIRRO" id="B8E2A7C8-20E0-7467-F5EF-0791059754AD">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-16 23:44:00 UTC</createdTime>
+<createdTime>2025-03-18 22:55:50 UTC</createdTime>
 <comment><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></commentInRDBMS>
-<generatorID>441D9CC8-915A-EEEA-3D83-07BF29EB189F</generatorID>
+<generatorID>3D692179-743E-3078-11D1-6CFBC34E5DB4</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
@@ -46,7 +45,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_LOGRADOURO" id="F11DFE2D-3490-C2EF-100D-04125FCC74F3">
@@ -62,8 +61,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>160</dataTypeSize>
-<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_CEP" id="27842C43-66E8-F23C-C38C-A6A9AC7CA1B8">
 <createdBy>Patricia</createdBy>

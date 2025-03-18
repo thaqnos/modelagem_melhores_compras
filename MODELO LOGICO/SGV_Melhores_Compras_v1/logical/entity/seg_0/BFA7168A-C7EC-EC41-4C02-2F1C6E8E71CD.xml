@@ -29,15 +29,15 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_CIDADE" id="D351FEED-44A9-3101-DA85-2887A0AF590C">
+<Attribute name="CD_CIDADE" id="76E5706E-E42B-6229-D5D1-9654F867FD87">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-16 23:42:34 UTC</createdTime>
+<createdTime>2025-03-18 22:53:59 UTC</createdTime>
 <comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></commentInRDBMS>
-<generatorID>2102440D-E6E3-646D-9FB2-A311B0AB7AB6</generatorID>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade  e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>344FF28A-3D65-70AC-F014-4B677F9D50A6</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
@@ -46,7 +46,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_BAIRRO" id="48688E7F-FCDF-8CD0-5C37-01C5684190ED">
@@ -63,8 +63,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>45</dataTypeSize>
-<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_ZONA_BAIRRO" id="867E7130-1AAF-8065-5ADC-F5A660839873">
 <createdBy>Patricia</createdBy>
@@ -80,8 +80,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
