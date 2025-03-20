@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C55BF44A-EBFC-D08D-DD40-D4C79751833C" name="MC_CLI_FISICA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>65122254-E0C9-7DEA-1B3C-C53EA9DA98C8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_CLIENTE" id="80E6FDC5-6700-E4C8-C5C9-160D70AED407">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da tabela NC_CLIENTE. ]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da tabela NC_CLIENTE. ]]></commentInRDBMS>
+<generatorID>2DC8E6DC-3E66-A740-5348-212C4E2C72DE</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO" id="53CBCFC3-286F-9947-6262-C750952F12C1">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a data de nascimento do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a data de nascimento do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório. ]]></commentInRDBMS>
+<generatorID>0305579E-B32B-9891-EC79-16A76FA2A433</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CPF" id="915886C1-7273-4E57-760B-88F88DD109BA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o número do CPF do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório. ]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o número do CPF do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório. ]]></commentInRDBMS>
+<generatorID>19BF6853-0578-6B01-0FDC-30646E7AC9E5</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FL_SEXO_BIOLOGICO" id="4800332D-1015-2ABB-67A8-A122978DF3CA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o sexo biológico do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o sexo biológico do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.. ]]></commentInRDBMS>
+<generatorID>910B54C9-5D75-2FE5-6065-609ADFF4445C</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_GENERO" id="6F70D462-1819-71D6-86A8-31C0AC2AF151">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Genero do sexo do Cliente. Seu conteúdo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Genero do sexo do Cliente. Seu conteúdo deve ser obrigatório.]]></commentInRDBMS>
+<generatorID>E4BF8006-D359-6826-1EDE-0F141B08ADFF</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MC_CLIENTE_ID" id="343A5F96-B72A-BD5E-1138-335B5B64CB6D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7CBB076-E81C-A86C-1BF7-E16964B34A7E" referredColumn="779196FF-1197-A434-D095-E65087F48B30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08B2979A-1214-4AF5-C88F-F78B5C8EB3F4" name="MC_CLI_FISICA_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>19261FA7-AA4D-51CD-43E7-4E5C6F03A3B8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E6FDC5-6700-E4C8-C5C9-160D70AED407"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A37DD095-2A18-B5CD-63AF-ECD10E78ECC3" name="MC_CLI_FISICA__IDX">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5EC00AE6-8E51-04F4-FD48-84D35930182E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="343A5F96-B72A-BD5E-1138-335B5B64CB6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9244A4A8-166E-8563-677D-27C0F63538C1" name="FK_MC_CLIENTE_FISICA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>5EC00AE6-8E51-04F4-FD48-84D35930182E</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="343A5F96-B72A-BD5E-1138-335B5B64CB6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

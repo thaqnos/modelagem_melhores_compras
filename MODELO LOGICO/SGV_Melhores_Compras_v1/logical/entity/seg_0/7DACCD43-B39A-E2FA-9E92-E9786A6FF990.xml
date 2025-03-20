@@ -45,7 +45,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_CLIENTE" id="4D88E46C-69FB-8FEE-7808-64C8E5B60BE4">
+<Attribute name="CD_CLIENTE" id="4D88E46C-69FB-8FEE-7808-64C8E5B60BE4">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-17 00:28:37 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
@@ -60,7 +60,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DT_VISUALIZACAO" id="4270F257-ADBC-A3CC-991A-74851DD5B923">
 <createdBy>thaqn</createdBy>
@@ -131,7 +131,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>76596227-5EC4-88F2-FD82-C2230235C080</attributeRef>
-<attributeRef>4D88E46C-69FB-8FEE-7808-64C8E5B60BE4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

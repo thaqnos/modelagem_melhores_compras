@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E13FA20F-6ED8-B77F-2B28-275D98B09CE2" name="MC_ENDERECO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>C28640F7-29FE-FEE1-635D-DF474E5CE731</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_END_CLI" id="6C3B3B61-16BD-909A-A043-97C53F586454">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do endereço do cliente  e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>5E9DF2C7-73CB-8D1E-86D6-5484DA5D243D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_LOGRADOURO" id="849C67DC-521A-31F0-A0CD-07E7F9A7F39A">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>2FDE63B8-08D2-5F28-688E-9B4404B28948</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFE025F7-DAC2-71A7-F27C-F143138AD35A" referredColumn="78333761-7084-6307-4871-BF09EEA48E22"/>
+</associations>
+</Column>
+<Column name="NR_CLIENTE" id="B679707F-6918-4291-045B-DF265BCE472A">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></commentInRDBMS>
+<generatorID>2E7A90FB-D067-F7A3-0FD2-2AD8BFF11102</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB5CD687-FB97-22CA-3ED3-B247ED708CF9" referredColumn="0E66C75E-C044-8AA8-99CC-1B4BD75C1BF4"/>
+</associations>
+</Column>
+<Column name="CD_FUNCIONARIO" id="662CA93F-866A-B28D-3BAE-DD6A61BD7999">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>3B12C72E-5EC6-0166-949B-91418366E592</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="736E0CB0-DBDF-F423-FAEA-14CEDC1795E6" referredColumn="28EE71ED-E1D7-3A3C-29BB-65CCCAB323AB"/>
+</associations>
+</Column>
+<Column name="NR_END" id="E9332882-27D8-264F-25DF-5E91D0B0CDA8">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Número do Endereço do Cliente. O número da Rua/Localidade onde o cliente está associado.]]></comment>
+<commentInRDBMS><![CDATA[Número do Endereço do Cliente. O número da Rua/Localidade onde o cliente está associado.]]></commentInRDBMS>
+<generatorID>66FB558F-5A6D-02B8-5E1E-1A0E02A58227</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_END" id="CD1B8393-C43A-E487-4140-2481F0F61461">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Status do endereço. (A)itvo ou (I)nativo.]]></comment>
+<commentInRDBMS><![CDATA[Status do endereço. (A)itvo ou (I)nativo.]]></commentInRDBMS>
+<generatorID>11BEFEE3-BC45-0BA8-46E4-0C549ADD2C53</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="4F582E16-1DF9-7706-DADC-AA63A2720BA9">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Data de início do endereço associado ao cliente.]]></comment>
+<commentInRDBMS><![CDATA[Data de início do endereço associado ao cliente.]]></commentInRDBMS>
+<generatorID>5EAA3854-CD89-CBA8-91F9-C5069847C531</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="83CEF43E-2FE1-E060-5C60-F04150F42517">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Data de término do endereço associado ao cliente.]]></comment>
+<commentInRDBMS><![CDATA[Data de término do endereço associado ao cliente.]]></commentInRDBMS>
+<generatorID>0D3D5A62-3D60-0D86-CF20-42BC4410C015</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_COMPLEMENTO_END" id="6B5E2DD0-097C-5D6C-B3D8-E98BC0C783E4">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o complemento do endereço do cliente e seu conteúdo pode ser opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o complemento do endereço do cliente e seu conteúdo pode ser opcional.]]></commentInRDBMS>
+<generatorID>31132A99-103E-E064-E54E-52F48DE45B41</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80D631CC-1505-DD91-89DD-0BB4832CB2FF" name="MC_END_CLI_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>95DD20B7-432F-4C99-81DB-9BF6EB70E77F</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C3B3B61-16BD-909A-A043-97C53F586454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D008FCA-FE0F-572B-74B4-BAB243D668D1" name="MC_ENDERECO__IDX">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C2244271-6503-386F-0E0C-645CC2610FE7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B679707F-6918-4291-045B-DF265BCE472A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A91E3AEB-5B94-33FA-71B6-1371D4630AA1" name="MC_ENDERECO__IDXv1">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2001F292-E4E5-BF83-7EC8-8B616E9F2D5A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="662CA93F-866A-B28D-3BAE-DD6A61BD7999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EE1EBDE-ED39-6EDA-E6DD-F473F6041034" name="FK_MC_END_CLIENTE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>C2244271-6503-386F-0E0C-645CC2610FE7</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B679707F-6918-4291-045B-DF265BCE472A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD07D3C4-F5C3-1A4D-21BF-EBD41229862C" name="FK_MC_END_FUNCIONARIO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>2001F292-E4E5-BF83-7EC8-8B616E9F2D5A</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="662CA93F-866A-B28D-3BAE-DD6A61BD7999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E39A6C-9A0B-8FC6-F56D-CACA2B2F38F6" name="FK_MC_LOGRADOURO_END_CLI">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>1CC67D86-78B8-BD5B-C3D9-3A81A082C768</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="849C67DC-521A-31F0-A0CD-07E7F9A7F39A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -47,7 +47,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_BAIRRO" id="48688E7F-FCDF-8CD0-5C37-01C5684190ED">
 <createdBy>Patricia</createdBy>
@@ -59,7 +59,6 @@
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

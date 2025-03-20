@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5165F49C-4E40-BCE6-8E0B-5AFE8662F18E" name="MC_CATEGORIA_PROD">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>A9D4A024-0175-C4A3-9624-3254CBFA3B53</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_CATEGORIA" id="3976C501-2D44-F514-11CA-D4D1DE0A11BC">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></commentInRDBMS>
+<generatorID>4DD3DE57-A476-3356-F581-03B5CE212821</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CATEGORIA" id="4DB4F9FA-3BE2-81AF-5F2C-983DE9CC6C26">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar descrição da categoria de produtos da Melhorees Compras. Cada categoria tem uma  descrição única e serve para organizar os produtos em categorias simliares, melhorando a tomada de decisão.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar descrição da categoria de produtos da Melhorees Compras. Cada categoria tem uma  descrição única e serve para organizar os produtos em categorias simliares, melhorando a tomada de decisão.]]></commentInRDBMS>
+<generatorID>45BCAC1A-062E-6323-1410-FA97EA6F8FE2</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_CATEGORIA" id="792953E8-C9C0-4683-BE49-E6005D5BCA4B">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o stauts da categoria da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o stauts da categoria da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></commentInRDBMS>
+<generatorID>0406043A-F745-934B-9052-414D969474D2</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_CATEGORIA" id="2F67228B-B294-01FF-067C-EE31A648E466">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Nessa  coluna  será  armazenada o tipo de categoria que poderá  ser (V)ídeo ou (P)rodudto. Seu conteúdo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Nessa  coluna  será  armazenada o tipo de categoria que poderá  ser (V)ídeo ou (P)roduto. Seu conteúdo deve ser obrigatório.]]></commentInRDBMS>
+<generatorID>753491B9-EBF0-DC6E-B433-02D1832CC1A9</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_INICIO" id="76CE6A1E-5C1C-58AF-CB65-F30BB7F130D3">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá receber  a data de início da categoria. Seu formato é dd/mm/yyyy e seu conteúdo deve ser sempre  obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá receber  a data de início da categoria. Seu formato é dd/mm/yyyy e seu conteúdo deve ser sempre  obrigatório.]]></commentInRDBMS>
+<generatorID>1A36E138-DE89-5BF5-A847-BB89C29ECDEB</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_TERMINO" id="A3D13BBF-590E-01AE-063D-97EEAE0E1C55">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá receber  a data de encerramento  da categoria. Seu formato é dd/mm/yyyy e seu conteúdo deve ser sempre  opcional. Conteúdo obrigatório significa que a categoria foi encerrada a partir da data término. Já o conteúdo opcional indica que a categoria está ativa e operante.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá receber  a data de encerramento  da categoria. Seu formato é dd/mm/yyyy e seu conteúdo deve ser sempre  opcional. Conteúdo obrigatório significa que a categoria foi encerrada a partir da data término. Já o conteúdo opcional indica que a categoria está ativa e operante.]]></commentInRDBMS>
+<generatorID>165335C5-B08B-769C-81B8-E2F29863D6AA</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD8FB509-A5DC-A404-9139-A304B07854A7" name="MC_CATEGORIA_PROD_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>64CA4E3A-A973-C132-8730-E1D11B446F22</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3976C501-2D44-F514-11CA-D4D1DE0A11BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D621445-B1BB-CEF7-AB71-B72AD978DCCB" name="UK_MC_CATEGORIA_DESCRICAO_CATEGORIA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>E1573D45-79E9-F5A4-3ABA-223E1C4DB346</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DB4F9FA-3BE2-81AF-5F2C-983DE9CC6C26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

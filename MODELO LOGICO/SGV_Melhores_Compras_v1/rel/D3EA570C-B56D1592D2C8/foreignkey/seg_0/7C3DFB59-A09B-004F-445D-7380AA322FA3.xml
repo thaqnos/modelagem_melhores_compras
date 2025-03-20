@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C3DFB59-A09B-004F-445D-7380AA322FA3" containerWithKeyObject="A32FDA81-D42F-CD06-3FB5-CAD57EADB9E2" localFKIndex="08E63EF3-CE60-C44D-57FE-97C3DC577A42" name="FK_MC_CLASSIFICACAO_VIDEO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>6734B0F2-F275-56CA-7605-707E107034FE</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<referredTableLongName>MC_VIDEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0E587F12-9D6F-3682-C3C0-1EAF2E2E8FFE</referredTableID>
+<keyObject>59ECDFEE-97D3-76D5-27C9-6B73414FD497</keyObject>
+<referredKeyID>59ECDFEE-97D3-76D5-27C9-6B73414FD497</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_VIDEO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

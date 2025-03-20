@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A32FDA81-D42F-CD06-3FB5-CAD57EADB9E2" name="MC_VIDEO_CLASSIFICACAO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>656B2727-833C-C3CC-A3D2-5E50A3B167B3</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_CLASSIFICACAO" id="22575557-9894-487E-5976-B0F49CA0A361">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código de classificação do vídeo e este é um atributo obrigatório.]]></commentInRDBMS>
+<generatorID>287D93FF-D513-6952-8680-DDBBD56793B1</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_VIDEO" id="C7FFA1C4-F038-C09C-CDBB-FD6D2534205B">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do vídeo e seu conteúdo é obrigatório..]]></commentInRDBMS>
+<generatorID>A94DA404-4D2C-7EC0-314F-CDA168DE39EA</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C3DFB59-A09B-004F-445D-7380AA322FA3" referredColumn="0943836C-A83B-906F-1B3F-B54E1E63F198"/>
+</associations>
+</Column>
+<Column name="DS_CLASSIFICACAO" id="B03F9B82-5CEE-E559-6A04-38B59210A6D1">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Essa coluna  irá  receber a descrição detalhada da classificação do vídeo. Exemplos dessas classificações: Vídeo de instalação do produto; Uso no cotidiano; Comercial com personalidade; entre outros.]]></commentInRDBMS>
+<generatorID>216CB637-426A-DF94-6029-C627A70568D8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B171C043-A5F2-30F1-D724-0F1D723B87CB" name="MC_VIDEO_CLASSIFICACAO_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>2AE7F970-C840-9039-FFE5-E60C239911FD</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22575557-9894-487E-5976-B0F49CA0A361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08E63EF3-CE60-C44D-57FE-97C3DC577A42" name="FK_MC_CLASSIFICACAO_VIDEO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>6734B0F2-F275-56CA-7605-707E107034FE</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7FFA1C4-F038-C09C-CDBB-FD6D2534205B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

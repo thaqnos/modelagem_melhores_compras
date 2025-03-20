@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="441449C5-481F-05D3-EBEF-DD01F6A597AE" name="MC_CIDADE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>D21A0D5B-DC85-DE84-F940-9207536747C0</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_CIDADE" id="99604627-3CD3-2717-E71D-5D987C2CC915">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>222C6B1C-9357-E263-1EC6-CAC658BFF0B3</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SG_ESTADO" id="17C68D46-8C1A-88BB-AEAE-D055D79CE8E6">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>2DD0101C-DCAA-BA93-1469-80F47AC4CF8D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E487FAF6-D8F2-1EFD-81B8-C48E33C369CA" referredColumn="7ACF99C2-57F9-67B3-E3DF-A25D331F8597"/>
+</associations>
+</Column>
+<Column name="NM_CIDADE" id="36E6EA56-3B97-1DFD-184C-79827896AD22">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna ira receber o nome da Cidade. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber o nome da Cidade. Esse conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>4F1A3263-4968-F780-F6FC-8986A63E6D0E</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_IBGE" id="CDCE0035-CC3F-D101-B0D0-4D2845D6D0D2">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o código do IBGE que fornece informações para geração da NFe.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do IBGE que fornece informações para geração da NFe.]]></commentInRDBMS>
+<generatorID>4D4C27CB-FA06-48E4-09D1-8705172F9FE8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDD" id="8AE22765-96EA-8FD9-A5A9-152AA3E75025">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o número do DDD da cidade para ser utilizado no contato telefônico. Seu conteudo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o número do DDD da cidade para ser utilizado no contato telefônico. Seu conteudo é opcional.]]></commentInRDBMS>
+<generatorID>41FC8311-AE8F-F0EE-A821-E5A9C3514107</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC82AF9F-2347-E9AC-883D-BEAE2A1FEB15" name="MC_CIDADE_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>42735E25-1E52-7DF3-ED65-FB37F9B2483D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99604627-3CD3-2717-E71D-5D987C2CC915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F17E100-06EB-2CF9-48ED-72E6D87154E0" name="FK_MC_ESTADO_CIDADE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>CE29C249-860A-C6F8-7A13-8754B9482BBF</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C68D46-8C1A-88BB-AEAE-D055D79CE8E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

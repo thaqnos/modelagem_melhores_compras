@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7917AC2F-D4F6-F6F6-E1D8-E783C6CCA503" containerWithKeyObject="36E1AA29-CD81-A2C7-C150-79B65D4B29E9" localFKIndex="D3A6F17F-BF27-3DDC-E80A-02EF3AB1D576" name="FK_MC_FUNC_SUPERIOR">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>03B99994-7495-8935-12B3-3E276A283F3C</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<referredTableLongName>MC_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36E1AA29-CD81-A2C7-C150-79B65D4B29E9</referredTableID>
+<keyObject>01DD0BC3-D9B2-8A2F-C9F6-85EC6D0F944A</keyObject>
+<referredKeyID>01DD0BC3-D9B2-8A2F-C9F6-85EC6D0F944A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>MC_FUNCIONARIO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

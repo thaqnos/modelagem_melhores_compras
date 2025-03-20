@@ -1,192 +1,187 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="732D0B08-C537-849B-F93F-5A55B2186B75" name="MC_CLIENTE">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<generatorID>AE252E86-E6B4-F95D-B94E-635EEF764C2F</generatorID>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67A3C079-0A1B-9153-3165-294100ADA222" name="MC_CLIENTE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>732D0B08-C537-849B-F93F-5A55B2186B75</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_CLIENTE" id="F401F00A-70F8-1181-69A0-320FD1410045">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MC_CLIENTE_ID" id="779196FF-1197-A434-D095-E65087F48B30">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="NR_CLIENTE" id="0E66C75E-C044-8AA8-99CC-1B4BD75C1BF4">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></commentInRDBMS>
-<generatorID>A0AE6625-F1C4-40D5-0C78-0D4E4450D37E</generatorID>
+<generatorID>F401F00A-70F8-1181-69A0-320FD1410045</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NM_CLIENTE" id="6A13E2D5-629F-CF2B-658F-19F0A1D6F92C">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CLIENTE" id="3A8F881A-0369-2FBA-C52D-EEB73BB82BB6">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o nome do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o nome do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></commentInRDBMS>
-<generatorID>EBFC82E5-7175-C8E3-76D7-DAB55DF033C1</generatorID>
+<generatorID>6A13E2D5-629F-CF2B-658F-19F0A1D6F92C</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>160</dataTypeSize>
 <ownDataTypeParameters>160,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="TP_CLIENTE" id="F6252BD0-D118-CB1C-FA89-0ECC4FD32CBA">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_CLIENTE" id="EC6CF17E-0EC9-53E6-812B-E02FC7F85DBC">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-19 00:25:57 UTC</createdTime>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[Campo que identifica se cliente é tipo "F"  (físico) ou "J" (jurídico).]]></commentInRDBMS>
+<generatorID>F6252BD0-D118-CB1C-FA89-0ECC4FD32CBA</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NM_LOGIN" id="6ACC5531-DAD2-7FBE-A724-2245DF507827">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_LOGIN" id="340A1DE1-EEA7-7290-3A8C-E0702077EE74">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o login de cada cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório e  único para cada cliente.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o login de cada cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório e  único para cada cliente.]]></commentInRDBMS>
-<generatorID>6B6DD1BD-734E-9BD8-9CF3-7E27FC873FF7</generatorID>
+<generatorID>6ACC5531-DAD2-7FBE-A724-2245DF507827</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_SENHA" id="47FEC2D0-5C91-A33B-C16D-2A35BB50F690">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SENHA" id="845F72E7-5D91-0F0B-0DB7-1005BDA5AAD2">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar a senha de cada cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar a senha de cada cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></commentInRDBMS>
-<generatorID>46D44108-C550-C1EF-6CDE-BDED7CF1B104</generatorID>
+<generatorID>47FEC2D0-5C91-A33B-C16D-2A35BB50F690</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ST_CLIENTE" id="60002F94-03F1-C3F6-480D-EA5A2D44DFFF">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_CLIENTE" id="8ADBBB54-856B-C91A-F48B-CFD5491E69AA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o stauts do cliente da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o stauts do cliente da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></commentInRDBMS>
-<generatorID>0D5D96CE-FBC6-E9B3-9709-E5D42A734479</generatorID>
+<generatorID>60002F94-03F1-C3F6-480D-EA5A2D44DFFF</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="QT_ESTRELAS" id="A58647EE-0026-2DC3-3D4B-9F4B4456E826">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QT_ESTRELAS" id="32F291BC-4928-EEAF-B60C-463DACC5E2BE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar a quantiade de estrelas do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório e ser possível de estar entre 1 e 5 estrelas.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar a quantiade de estrelas do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório e ser possível de estar entre 1 e 5 estrelas.]]></commentInRDBMS>
-<generatorID>B32690A5-B621-45F2-6E08-B503763E6C0D</generatorID>
+<generatorID>A58647EE-0026-2DC3-3D4B-9F4B4456E826</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_EMAIL" id="2C851B50-5699-1961-129C-830577814355">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_EMAIL" id="17FA0EB0-C001-8D9D-5C03-FB1FDBE1D3AE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o email  do cliente da Melhorees Compras. No minimo é esperado um email contendo o caractere (@) em seu conteúdo.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o email  do cliente da Melhorees Compras. No minimo é esperado um email contendo o caractere (@) em seu conteúdo.]]></commentInRDBMS>
-<generatorID>3CC63875-7EB2-E27C-FD2B-617392FB7C96</generatorID>
+<generatorID>2C851B50-5699-1961-129C-830577814355</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NR_TELEFONE" id="32D8D939-A843-766C-774D-94EA8F0D9299">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="171B9EDC-3471-6E94-9C50-CF77C7963AC6">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o número do cliente da Melhorees Compras. A mascara de armazenamento deve ser: (<nr_ddd>) 99999-9999 e  deve ser utilizada pré definida.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o número do cliente da Melhorees Compras. A mascara de armazenamento deve ser: (<nr_ddd>) 99999-9999 e  deve ser utilizada pré definida.]]></commentInRDBMS>
-<generatorID>C4A6D312-D05A-089F-CF72-DDB56620787D</generatorID>
+<generatorID>32D8D939-A843-766C-774D-94EA8F0D9299</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EBD93C03-0836-4C08-B313-4902D3F85B96" name="UK_MC_CLIENTE_NOME_CLIENTE">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<generatorID>925AAC40-3047-10C9-5A26-3F9A1CCD6AE7</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<newElementsIDs>6A13E2D5-629F-CF2B-658F-19F0A1D6F92C</newElementsIDs>
-<usedAttributes>
-<attributeRef>6A13E2D5-629F-CF2B-658F-19F0A1D6F92C</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="B04962BF-9EF5-5684-6D45-319E50572052" name="MC_CLIENTE PK">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EFCE740-E9DE-0A1F-5DAD-583A4C9EF16F" name="MC_CLIENTE_PK">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-14 00:32:24 UTC</createdTime>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>F401F00A-70F8-1181-69A0-320FD1410045</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="779196FF-1197-A434-D095-E65087F48B30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9213225-AF26-31D0-6589-B3B0B2819801" name="UK_MC_CLIENTE_NOME_CLIENTE">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>EBD93C03-0836-4C08-B313-4902D3F85B96</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A8F881A-0369-2FBA-C52D-EEB73BB82BB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726F01D8-64A1-FE6B-24AF-A3C44005BF20" name="MC_CLIENTE_NR_CLIENTE_UN">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>B04962BF-9EF5-5684-6D45-319E50572052</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E66C75E-C044-8AA8-99CC-1B4BD75C1BF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

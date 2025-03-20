@@ -1,129 +1,109 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="564526E6-9CE0-D03F-CD10-EE14A5EC0E29" name="MC_PRODUTO">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<generatorID>0E48B727-90AE-BC11-870C-1DCFAEC8AE93</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<adequatelyNormalized>NO</adequatelyNormalized>
-<expectedVolumes>0</expectedVolumes>
-<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
-<growthPercent>0</growthPercent>
-<growthType>Year</growthType>
-<maxVolumes>9999999</maxVolumes>
-<minVolumes>0</minVolumes>
-<normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_CATEGORIA" id="391F9B6C-D0E7-6001-8115-FA9BAC8305C5">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="704E24E2-A4B9-D627-DECE-E632A2E510DB" name="MC_PRODUTO">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-17 22:29:45 UTC</createdTime>
-<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
-<generatorID>6F1827AE-94EA-63C0-6248-D9BA55902D97</generatorID>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>564526E6-9CE0-D03F-CD10-EE14A5EC0E29</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<referedAttribute>4DD3DE57-A476-3356-F581-03B5CE212821</referedAttribute>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_CATEGORIA" id="D8D8E944-F15A-B222-AB57-E3BBE5EA68A8">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de categoria de produtos da Melhorees Compras. Cada categoria nova cadastrada  será acionada a Sequence  SQ_MC_CATEGORIA que se encarregará de gerar o próximo número único da categoria..]]></comment>
+<generatorID>391F9B6C-D0E7-6001-8115-FA9BAC8305C5</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CD_PRODUTO" id="2D0729E2-3896-A8CB-8ECB-8D20F972A898">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF45C8D8-A807-7D8B-580F-49B8615F78E0" referredColumn="3976C501-2D44-F514-11CA-D4D1DE0A11BC"/>
+</associations>
+</Column>
+<Column name="CD_PRODUTO" id="4907D6EF-9F73-10EC-1110-F6C9CD866D7D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></commentInRDBMS>
-<generatorID>7C5C6ED1-7E54-30C0-CE0F-68E16D66953D</generatorID>
+<generatorID>2D0729E2-3896-A8CB-8ECB-8D20F972A898</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_PRODUTO" id="192AF864-D032-E0D7-F5BD-CE4453A88C9A">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PRODUTO" id="2A6B3DDB-757C-FD26-BB9E-EEC60C5B1D4F">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar a descrição principal do produto. Seu conteúdo deve ser  obrigatorio.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar a descrição principal do produto. Seu conteúdo deve ser  obrigatorio. Nome comum utilizado durante a comercialização do produto.]]></commentInRDBMS>
-<generatorID>B06B20B1-7630-A5A3-CA95-7505DFCA7663</generatorID>
+<generatorID>192AF864-D032-E0D7-F5BD-CE4453A88C9A</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VL_UNITARIO_PRODUTO" id="6602F16E-B6BA-58C0-1664-D8D87AD7EFCF">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_UNITARIO_PRODUTO" id="39DC1DA3-42E3-CD52-C211-700806809CCD">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o valor unitário do produto. Seu conteúdo deve ser > 0 ]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o valor unitário do produto. Seu conteúdo deve ser > 0 ]]></commentInRDBMS>
-<generatorID>5923E7FB-EE4E-60AD-BE6F-5B148EA328A7</generatorID>
+<generatorID>6602F16E-B6BA-58C0-1664-D8D87AD7EFCF</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_COMPLETA_PRODUTO" id="4847524F-1D66-41FC-A768-F74B0D7300F2">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_COMPLETA_PRODUTO" id="F929E8C4-3C4B-2BE4-ADBD-C55E188AD026">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar a descrição completa do produto. Seu conteúdo deve ser  obrigatorio.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar a descrição completa do produto. Seu conteúdo deve ser  obrigatorio. Detalhamento do produto comercializado, utilizado internamente pela empresa.]]></commentInRDBMS>
-<generatorID>61FA5414-8B59-B650-EE04-3A5CE61BE463</generatorID>
+<generatorID>4847524F-1D66-41FC-A768-F74B0D7300F2</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>4000</dataTypeSize>
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NR_CD_BARRAS_PRODUTO" id="AE65232E-9C24-EF90-3D89-DC1D826664C9">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CD_BARRAS_PRODUTO" id="B3A6DCEF-504B-5487-5EBF-23841DE56665">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o número do codigo de barras  do produto. Seu conteúdo deve ser opcional.]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o número do codigo de barras  do produto. Seu conteúdo deve ser opcional. Padrão EAN13.]]></commentInRDBMS>
-<generatorID>8285CA14-212C-EF5C-A40D-5473BD263398</generatorID>
+<generatorID>AE65232E-9C24-EF90-3D89-DC1D826664C9</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ST_PRODUTO" id="7942A8CA-B300-1E5F-2701-C3E994D45C7A">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_PRODUTO" id="9676BCC8-9344-57AC-E4A4-8219455B2A2F">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o stauts do produto da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></comment>
 <commentInRDBMS><![CDATA[Essa coluna irá armazenar o stauts do produto da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></commentInRDBMS>
-<generatorID>E1BCBBD8-F0FF-A360-BD7D-FF7AAABD4380</generatorID>
+<generatorID>7942A8CA-B300-1E5F-2701-C3E994D45C7A</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <constraintName>CK_MC_ST_PRODUTO</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -136,32 +116,44 @@
 </listOfValues>
 <defaultValue>A</defaultValue>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="79FF79E7-F70A-79B8-B4AB-3A6D640B5D5A" name="MC_PRODUTO PK">
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8812117E-D872-2681-796B-D6DEA8F6D4F5" name="MC_PRODUTO_PK">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-14 00:23:50 UTC</createdTime>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>79FF79E7-F70A-79B8-B4AB-3A6D640B5D5A</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>2D0729E2-3896-A8CB-8ECB-8D20F972A898</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="4F1D25BB-82A5-CEBC-2F59-5AC995C041ED" name="UK_MC_PRODUTO_DESCRICAO_PRODUTO">
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4907D6EF-9F73-10EC-1110-F6C9CD866D7D"/>
+<colUsage columnID="D8D8E944-F15A-B222-AB57-E3BBE5EA68A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF901B2A-4684-D842-60A7-F3B5738CF362" name="UK_MC_PRODUTO_DESCRICAO_PRODUTO">
 <createdBy>thaqn</createdBy>
-<createdTime>2025-03-18 01:00:41 UTC</createdTime>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>4F1D25BB-82A5-CEBC-2F59-5AC995C041ED</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<newElementsIDs>192AF864-D032-E0D7-F5BD-CE4453A88C9A</newElementsIDs>
-<usedAttributes>
-<attributeRef>192AF864-D032-E0D7-F5BD-CE4453A88C9A</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
-</Entity>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A6B3DDB-757C-FD26-BB9E-EEC60C5B1D4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A3CA3E1-B3ED-C03A-F7CD-35EF650515D2" name="FK_MC_CATEGORIA_PRODUTO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>6F1827AE-94EA-63C0-6248-D9BA55902D97</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8D8E944-F15A-B222-AB57-E3BBE5EA68A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

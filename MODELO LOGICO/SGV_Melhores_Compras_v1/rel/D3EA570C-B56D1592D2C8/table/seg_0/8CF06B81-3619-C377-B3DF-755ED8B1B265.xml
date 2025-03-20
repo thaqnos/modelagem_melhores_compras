@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CF06B81-3619-C377-B3DF-755ED8B1B265" name="MC_BAIRRO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>BFA7168A-C7EC-EC41-4C02-2F1C6E8E71CD</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_BAIRRO" id="EA11242D-B6AB-7174-97C5-C4E8B2636E86">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>45F394DD-754B-A9A9-70D5-223E4E462BFF</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_CIDADE" id="82F795DA-6809-BEB6-B0E8-AB0174958CB0">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo da cidade e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo da cidade  e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>76E5706E-E42B-6229-D5D1-9654F867FD87</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8D10818-4E53-A7C8-631E-106AFDA24CB7" referredColumn="99604627-3CD3-2717-E71D-5D987C2CC915"/>
+</associations>
+</Column>
+<Column name="NM_BAIRRO" id="ED3218C8-ADE8-C348-B088-19527416192B">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna ira receber o nome do Bairro. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber o nome do Bairro. Esse conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>48688E7F-FCDF-8CD0-5C37-01C5684190ED</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ZONA_BAIRRO" id="9CDC3893-6203-A795-E4A6-77AC96211B6E">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber a localização da zona onde se encontra o bairro. Alguns exemplos: Zona Norte, Zona Sul, Zona Leste, Zona Oeste, Centro.]]></commentInRDBMS>
+<generatorID>867E7130-1AAF-8065-5ADC-F5A660839873</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CC4A8B4-7F06-40EE-523C-73A1BCE9EF00" name="MC_BAIRRO_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:31 UTC</createdTime>
+<generatorID>C78B1283-DD59-D3D6-2CC6-CB8FD6E8EE55</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA11242D-B6AB-7174-97C5-C4E8B2636E86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3BA3D0C-ADC0-F797-593B-1E978196DA73" name="FK_MC_CIDADE_BAIRRO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>344FF28A-3D65-70AC-F014-4B677F9D50A6</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82F795DA-6809-BEB6-B0E8-AB0174958CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

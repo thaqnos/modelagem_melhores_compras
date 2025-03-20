@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7CBB076-E81C-A86C-1BF7-E16964B34A7E" containerWithKeyObject="C55BF44A-EBFC-D08D-DD40-D4C79751833C" localFKIndex="9244A4A8-166E-8563-677D-27C0F63538C1" name="FK_MC_CLIENTE_FISICA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>5EC00AE6-8E51-04F4-FD48-84D35930182E</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<referredTableLongName>MC_CLIENTE</referredTableLongName>
+<arc>47DDF4D0-D67B-24E9-FC6B-70AC9CDDD832</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>67A3C079-0A1B-9153-3165-294100ADA222</referredTableID>
+<keyObject>8EFCE740-E9DE-0A1F-5DAD-583A4C9EF16F</keyObject>
+<referredKeyID>8EFCE740-E9DE-0A1F-5DAD-583A4C9EF16F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MC_CLIENTE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>T1</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

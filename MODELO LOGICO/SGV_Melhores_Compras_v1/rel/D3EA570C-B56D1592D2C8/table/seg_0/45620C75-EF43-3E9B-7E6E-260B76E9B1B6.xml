@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45620C75-EF43-3E9B-7E6E-260B76E9B1B6" name="MC_VISUALIZACAO_VIDEO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>7DACCD43-B39A-E2FA-9E92-E9786A6FF990</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_VISUALIZACAO" id="ABDFD9EB-DC7E-4FF8-D790-AE592AEC693B">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código da visualização do vídeo e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>76596227-5EC4-88F2-FD82-C2230235C080</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_VIDEO" id="83EA2CB0-5A9B-58DC-976E-6C21BAF43C7D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do vídeo e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>36503908-F236-80D2-A980-C6EEB8F47C90</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D729493-125D-33B2-2336-FD294F087747" referredColumn="0943836C-A83B-906F-1B3F-B54E1E63F198"/>
+</associations>
+</Column>
+<Column name="NR_CLIENTE" id="C5842367-8864-8869-B73B-9285FD47EAE6">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></commentInRDBMS>
+<generatorID>4D88E46C-69FB-8FEE-7808-64C8E5B60BE4</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13D63BFD-BACD-5ED3-41ED-A899B7B71542" referredColumn="0E66C75E-C044-8AA8-99CC-1B4BD75C1BF4"/>
+</associations>
+</Column>
+<Column name="DT_VISUALIZACAO" id="90C4AF75-72DD-FE08-945A-8D1BBE0E4E17">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber a data da visualização do vídeo e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>4270F257-ADBC-A3CC-991A-74851DD5B923</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HR_VISUALIZACAO" id="CCC709C4-9075-A0A3-DBC3-34F3F53FF6BA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber a hora da visualização do vídeo e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>CE211D31-35ED-D3A0-A352-76C796AA983B</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_VISUALIZACAO" id="2AF571A7-C26A-6B11-6F2E-D94CDAFB0660">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber os minutos da visualização do vídeo e seu conteúdo é opcional..]]></commentInRDBMS>
+<generatorID>000CAF15-C742-0DCA-79DD-AAE59787FF4E</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEG_VISUALIZACAO" id="E3FA216E-2E02-774A-98B5-06A2A538A51D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta coluna irá receber os segundos da  visualização do vídeo e seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>C12704A0-5258-5FEB-064E-A5A41EDC26EA</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E86C6504-17AC-6771-0A2E-B220B2AF7EAE" name="MC_VISUALIZACAO_PROD_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>EA2D1B95-05B2-937D-F059-2BDC78ABB587</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABDFD9EB-DC7E-4FF8-D790-AE592AEC693B"/>
+<colUsage columnID="C5842367-8864-8869-B73B-9285FD47EAE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DBD9B52-39C8-02CF-E9D6-B944639C434F" name="FK_MC_VIDEO_VISUALIZACAO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>0D9BD69A-C544-78DC-C960-7E284D66047D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83EA2CB0-5A9B-58DC-976E-6C21BAF43C7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F294A576-20CB-8772-3719-A46134EF628E" name="FK_MC_VISUALIZACAO_VIDEO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>A826AEC3-E84F-3BA8-66D1-F961B9340D2C</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5842367-8864-8869-B73B-9285FD47EAE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

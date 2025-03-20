@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NR_CLIENTE" id="2DC8E6DC-3E66-A740-5348-212C4E2C72DE">
+<Attribute name="CD_CLIENTE" id="2DC8E6DC-3E66-A740-5348-212C4E2C72DE">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da tabela NC_CLIENTE. ]]></comment>
@@ -96,4 +96,18 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19261FA7-AA4D-51CD-43E7-4E5C6F03A3B8" name="MC_CLI_FISICA PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:15:29 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DC8E6DC-3E66-A740-5348-212C4E2C72DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

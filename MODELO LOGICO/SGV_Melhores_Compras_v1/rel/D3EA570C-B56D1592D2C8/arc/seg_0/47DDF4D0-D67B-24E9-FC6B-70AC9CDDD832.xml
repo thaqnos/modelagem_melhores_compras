@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="47DDF4D0-D67B-24E9-FC6B-70AC9CDDD832" name="FK_ARCO_CLI_FISICA_JURIDICA">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>67A3C079-0A1B-9153-3165-294100ADA222</table>
+<fkeys>
+<fkeyID>E7CBB076-E81C-A86C-1BF7-E16964B34A7E</fkeyID>
+<fkeyID>8C1B6399-773C-6788-0C79-70AA8E6542AF</fkeyID>
+</fkeys>
+</FKArc>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_END_CLI" id="5E9DF2C7-73CB-8D1E-86D6-5484DA5D243D">
+<Attribute name="CD_END" id="5E9DF2C7-73CB-8D1E-86D6-5484DA5D243D">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-16 23:57:30 UTC</createdTime>
 <commentInRDBMS><![CDATA[Esta coluna irá receber o código do endereço do cliente  e seu conteúdo é obrigatório.]]></commentInRDBMS>
@@ -45,9 +45,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NR_CLIENTE" id="2E7A90FB-D067-F7A3-0FD2-2AD8BFF11102">
+<Attribute name="CD_CLIENTE" id="2E7A90FB-D067-F7A3-0FD2-2AD8BFF11102">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-17 01:05:07 UTC</createdTime>
 <comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
@@ -62,9 +62,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CD_FUNCIONARIO" id="3B12C72E-5EC6-0166-949B-91418366E592">
+<Attribute name="CD_FUNC" id="3B12C72E-5EC6-0166-949B-91418366E592">
 <createdBy>thaqn</createdBy>
 <createdTime>2025-03-17 01:05:19 UTC</createdTime>
 <comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
@@ -79,7 +79,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_END" id="66FB558F-5A6D-02B8-5E1E-1A0E02A58227">
 <createdBy>Patricia</createdBy>

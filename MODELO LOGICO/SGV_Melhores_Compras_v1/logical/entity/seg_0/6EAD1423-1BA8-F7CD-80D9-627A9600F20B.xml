@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CD_FUNCIONARIO" id="FF7C6449-9820-DE48-8797-FBE9BD2A5F43">
+<Attribute name="CD_FUNC" id="FF7C6449-9820-DE48-8797-FBE9BD2A5F43">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
 <comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
@@ -32,21 +32,21 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_FUNCIONARIO" id="C83EA96F-766D-B48F-249C-87C329D1E223">
-<createdBy>Patricia</createdBy>
-<createdTime>2024-06-11 22:37:55 UTC</createdTime>
-<comment><![CDATA[Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
-<generatorID>3AFC4375-B6A6-E6C8-C419-0A8A0CB38690</generatorID>
+<Attribute name="CD_DEPTO" id="2FF81CAA-DD1A-E89B-6D37-2752E66AB19A">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-16 23:54:31 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do departamento  e seu conteúdo é obrigatório.]]></comment>
+<generatorID>6F139228-2F85-ADCB-9324-114D5062C10B</generatorID>
 <ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
 <engineerTo>
 <item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
 </engineerTo>
+<referedAttribute>7DDFB79F-4F6B-CE1D-7854-241305D04174</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>160</dataTypeSize>
-<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NR_CPF" id="94370E12-BAE7-7B73-AC4B-0C45EB2D165E">
 <createdBy>thaqn</createdBy>
@@ -62,7 +62,23 @@
 <dataTypePrecision>11</dataTypePrecision>
 <ownDataTypeParameters>,11,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_NASCIMENTO" id="92CDCB6C-0576-DAC2-D6CC-7CE24CB165DE">
+<Attribute name="NM_FUNC" id="C83EA96F-766D-B48F-249C-87C329D1E223">
+<createdBy>Patricia</createdBy>
+<createdTime>2024-06-11 22:37:55 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>3AFC4375-B6A6-E6C8-C419-0A8A0CB38690</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASC" id="92CDCB6C-0576-DAC2-D6CC-7CE24CB165DE">
 <createdBy>Patricia</createdBy>
 <createdTime>2024-06-11 22:37:55 UTC</createdTime>
 <comment><![CDATA[Esta coluna irá receber a data de nascimento  do funcionário e seu conteúdo é obrigatório.]]></comment>
@@ -121,22 +137,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>80</dataTypeSize>
 <ownDataTypeParameters>80,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CD_DEPTO" id="2FF81CAA-DD1A-E89B-6D37-2752E66AB19A">
-<createdBy>thaqn</createdBy>
-<createdTime>2025-03-16 23:54:31 UTC</createdTime>
-<comment><![CDATA[Esta coluna irá receber o codigo do departamento  e seu conteúdo é obrigatório.]]></comment>
-<generatorID>6F139228-2F85-ADCB-9324-114D5062C10B</generatorID>
-<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<referedAttribute>7DDFB79F-4F6B-CE1D-7854-241305D04174</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CD_GERENTE" id="024C1058-2982-9596-B9B1-616B11ABA8D8">
 <createdBy>Patricia</createdBy>

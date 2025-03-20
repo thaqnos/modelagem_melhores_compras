@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9703C85B-299C-A519-35D0-CAE305EE5321" name="MC_LOGRADOURO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>2AF134DE-F258-C319-33CA-90E07C8FD4E5</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_LOGRADOURO" id="78333761-7084-6307-4871-BF09EEA48E22">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>23FB6BA1-665E-3E39-8D8B-FE20DFBA10B0</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_BAIRRO" id="5FD4B508-C520-9BD6-D97C-6E1860AEFB1D">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do bairro e seu conteúdo é obrigatório.]]></comment>
+<generatorID>B8E2A7C8-20E0-7467-F5EF-0791059754AD</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="653A477E-89A0-AD39-D967-8A5E8CA801A1" referredColumn="EA11242D-B6AB-7174-97C5-C4E8B2636E86"/>
+</associations>
+</Column>
+<Column name="NM_LOGRADOURO" id="58E2019E-B140-588A-EFFB-6983307FBC1A">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do logradouro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do logradouro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>F11DFE2D-3490-C2EF-100D-04125FCC74F3</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CEP" id="0778C499-49DF-BC33-2727-88F4296BED14">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o numero do CEP do Logradouro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o numero do CEP do Logradouro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>27842C43-66E8-F23C-C38C-A6A9AC7CA1B8</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08B8DD6B-D506-BED9-78B5-CD478B2E1BBF" name="MC_LOGRADOURO_PK">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>3F06E60B-18FC-0A13-5198-D79873350276</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78333761-7084-6307-4871-BF09EEA48E22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CC3EB2F-B26E-C34C-D4EA-E157C29B585D" name="FK_MC_BAIRRO_LOGRADOURO">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>3D692179-743E-3078-11D1-6CFBC34E5DB4</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FD4B508-C520-9BD6-D97C-6E1860AEFB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

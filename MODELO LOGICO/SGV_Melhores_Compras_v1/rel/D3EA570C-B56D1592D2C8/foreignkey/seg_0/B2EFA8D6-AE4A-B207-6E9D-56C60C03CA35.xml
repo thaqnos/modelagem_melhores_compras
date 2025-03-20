@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2EFA8D6-AE4A-B207-6E9D-56C60C03CA35" containerWithKeyObject="11509DD9-6720-BF43-E0D1-ACFA1B3CE214" localFKIndex="CA72B0FE-C97B-1852-C112-2B06147399C9" name="FK_MC_PRODUTO_SAC">
+<createdBy>thaqn</createdBy>
+<createdTime>2025-03-19 00:52:32 UTC</createdTime>
+<generatorID>E6C5FE03-0E83-D71F-4793-567127F5CA4B</generatorID>
+<ownerDesignName>SGV_Melhores_Compras_v1</ownerDesignName>
+<referredTableLongName>MC_PRODUTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>704E24E2-A4B9-D627-DECE-E632A2E510DB</referredTableID>
+<keyObject>8812117E-D872-2681-796B-D6DEA8F6D4F5</keyObject>
+<referredKeyID>8812117E-D872-2681-796B-D6DEA8F6D4F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_PRODUTO,CD_CATEGORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
