@@ -1,0 +1,444 @@
+
+Table T_MC_ESTADO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_CIDADE criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_BAIRRO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_LOGRADOURO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Sequence SEQ_T_MC_CLIENTE criado.
+
+
+Table T_MC_CLIENTE criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Trigger TRG_T_MC_CLIENTE_INSERT compilado
+
+
+Table T_MC_CLI_JURIDICA criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_CLI_FISICA criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_ACESSO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_DEPTO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_FUNCIONARIO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_ENDERECO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Sequence SEQ_T_MC_CATEGORIA_PROD criado.
+
+
+Table T_MC_CATEGORIA_PROD criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Trigger TRG_T_MC_CATEGORIA_PROD_INSERT compilado
+
+
+Sequence SEQ_T_MC_PRODUTO criado.
+
+
+Table T_MC_PRODUTO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Trigger TRG_T_MC_PRODUTO_INSERT compilado
+
+
+Sequence SEQ_T_MC_SAC criado.
+
+
+Table T_MC_SAC criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Trigger TRG_T_MC_SAC_INSERT compilado
+
+
+Table T_MC_VIDEO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_VIDEO_CLASSIFICACAO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_VISUALIZACAO criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Comment criado.
+
+
+Table T_MC_VISUALIZACAO eliminado.
+
+
+Table T_MC_VIDEO_CLASSIFICACAO eliminado.
+
+
+Table T_MC_VIDEO eliminado.
+
+
+Table T_MC_SAC eliminado.
+
+
+Table T_MC_PRODUTO eliminado.
+
+
+Table T_MC_CATEGORIA_PROD eliminado.
+
+
+Table T_MC_CLI_FISICA eliminado.
+
+
+Table T_MC_CLI_JURIDICA eliminado.
+
+
+Table T_MC_CLIENTE eliminado.
+
+
+Table T_MC_ACESSO eliminado.
+
+
+Table T_MC_FUNCIONARIO eliminado.
+
+
+Table T_MC_DEPTO eliminado.
+
+
+Table T_MC_ENDERECO eliminado.
+
+
+Table T_MC_LOGRADOURO eliminado.
+
+
+Table T_MC_BAIRRO eliminado.
+
+
+Table T_MC_ESTADO eliminado.
+
+
+Table T_MC_CIDADE eliminado.
+
+
+Sequence SEQ_T_MC_CATEGORIA_PROD eliminado.
+
+
+Sequence SEQ_T_MC_SAC eliminado.
+
+
+Sequence SEQ_T_MC_CLIENTE eliminado.
+
+
+Sequence SEQ_T_MC_PRODUTO eliminado.
+
